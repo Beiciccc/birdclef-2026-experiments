@@ -2,19 +2,46 @@
 
 ## Summary
 
-Best confirmed public leaderboard score: `0.944`.
+Best confirmed public leaderboard score: `0.946`.
 
 Current best submission:
 
 | Date | Submission | Public score | Notes |
 |---|---|---:|---|
-| 2026-05-08 | `public_raunak_v8_20260508` | `0.944` | Best confirmed public score in this workspace. |
+| 2026-05-12 | `public_kosuke_convnext_may12_20260512` | `0.946` | Best confirmed public score in this workspace. |
+| 2026-05-12 | `public_kosuke_sed_may12_20260512_notebook_submit` | `0.946` | Tied best confirmed public score. |
 
-Leaderboard snapshot after the 2026-05-08 submission batch:
+Leaderboard snapshot after the 2026-05-12 submission batch:
 
 | Team | Rank | Score | Total submissions |
 |---|---:|---:|---:|
-| `Kun Zhang` | `179` | `0.944` | `60` |
+| `Kun Zhang` | `546` | `0.946` | `65` |
+
+## 2026-05-12 Submission Batch
+
+Five competition submission records were created. Two public notebook reruns scored successfully and improved the best confirmed public score from `0.944` to `0.946`.
+
+| Submission | Public score | Result |
+|---|---:|---|
+| `public_kosuke_convnext_may12_20260512` | `0.946` | New best in this workspace. |
+| `public_kosuke_sed_may12_20260512_notebook_submit` | `0.946` | Tied the new best. |
+| `blend_convnext70_raunak30_20260512_nb` |  | Format rejected by competition scorer. |
+| `rank_blend_convnext60_mattia25_raunak15_20260512_nb` |  | Format rejected by competition scorer. |
+| `blend_convnext55_henry25_mattia20_20260512_nb` |  | Format rejected by competition scorer. |
+
+Notes:
+
+- The strongest reproducible public line found in this cycle was the Perch plus SED V8-style family.
+- Direct local CSV upload is not accepted for this code competition; submissions must be attached to notebook versions.
+- Static replay notebooks that only write a fixed CSV are not valid for this competition format. Future blend experiments should be implemented inside full inference notebooks or as legitimate notebook outputs from attached public inputs.
+
+Public sources reviewed or rerun in this cycle:
+
+- [afr1ste V8 Perch + SED](https://www.kaggle.com/code/afr1ste/birdclef-2026-0-946-updated-perch-sed)
+- [m-toshi ensemble of solutions](https://www.kaggle.com/code/mtoshidesu/testbirdclef-2026-ensemble-of-solutions-3)
+- [Raunak BirdNET four-way blend](https://www.kaggle.com/code/raunakdey07/birdclef-2026-birdnet-4-way-rank-blend)
+- [Needless Perch SED CLAP](https://www.kaggle.com/code/needless090/birdclef-2026-perch-sed-lb-0-946-clap)
+- [Yaroslav robust-input replay](https://www.kaggle.com/code/yaroslavkholmirzayev/0-946-replay-with-robust-inputs)
 
 ## 2026-05-08 Submission Batch
 

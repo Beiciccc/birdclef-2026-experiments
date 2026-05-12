@@ -5,7 +5,8 @@ This repository keeps only lightweight public metadata and result snapshots.
 ## Included
 
 - `data/submissions/submission_history.csv`: Kaggle submission list snapshot.
-- `data/leaderboard/birdclef-2026.zip`: downloaded public leaderboard snapshot.
+- `data/leaderboard/public_leaderboard_2026-05-08.zip`: downloaded public leaderboard snapshot.
+- `data/leaderboard/public_leaderboard_2026-05-12.zip`: downloaded public leaderboard snapshot.
 
 ## Not Included
 
