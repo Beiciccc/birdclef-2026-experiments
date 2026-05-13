@@ -1,4 +1,9 @@
 fileName,date,description,status,publicScore,privateScore
+submission.csv,2026-05-13 01:29:13.337000,public_dacquaviva_imaad_v50_20260513,SubmissionStatus.COMPLETE,0.944,
+submission.csv,2026-05-13 01:19:28.427000,public_kosuke_v8_cv4f_5pct_may13_20260513,SubmissionStatus.COMPLETE,0.946,
+submission.csv,2026-05-13 01:10:33.630000,public_kosuke_v8_cv4f_3pct_may13_20260513,SubmissionStatus.COMPLETE,0.946,
+submission.csv,2026-05-13 01:09:52.963000,public_kosuke_v8_cv4f_aves7pct_may13_20260513,SubmissionStatus.COMPLETE,0.946,
+submission.csv,2026-05-13 00:59:08.107000,public_zeyad_two_branch_sidecar_20260513,SubmissionStatus.COMPLETE,0.946,
 submission.csv,2026-05-12 14:55:43.797000,blend_convnext55_henry25_mattia20_20260512_nb,SubmissionStatus.COMPLETE,,
 submission.csv,2026-05-12 14:54:36.167000,rank_blend_convnext60_mattia25_raunak15_20260512_nb,SubmissionStatus.COMPLETE,,
 submission.csv,2026-05-12 14:52:39.710000,blend_convnext70_raunak30_20260512_nb,SubmissionStatus.COMPLETE,,

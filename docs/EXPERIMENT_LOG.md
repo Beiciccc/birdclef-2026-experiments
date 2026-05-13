@@ -11,11 +11,44 @@ Current best submission:
 | 2026-05-12 | `public_kosuke_convnext_may12_20260512` | `0.946` | Best confirmed public score in this workspace. |
 | 2026-05-12 | `public_kosuke_sed_may12_20260512_notebook_submit` | `0.946` | Tied best confirmed public score. |
 
-Leaderboard snapshot after the 2026-05-12 submission batch:
+Current leaderboard snapshot:
 
 | Team | Rank | Score | Total submissions |
 |---|---:|---:|---:|
-| `Kun Zhang` | `546` | `0.946` | `65` |
+| `Kun Zhang` | `133` | `0.946` | `70` |
+
+## 2026-05-13 Submission Batch
+
+Five competition submission records were created. The best confirmed public score remained `0.946`.
+
+| Submission | Public score | Result |
+|---|---:|---|
+| `public_zeyad_two_branch_sidecar_20260513` | `0.946` | Tied the current best. |
+| `public_kosuke_v8_cv4f_aves7pct_may13_20260513` | `0.946` | Tied the current best. |
+| `public_kosuke_v8_cv4f_3pct_may13_20260513` | `0.946` | Tied the current best. |
+| `public_kosuke_v8_cv4f_5pct_may13_20260513` | `0.946` | Tied the current best. |
+| `public_dacquaviva_imaad_v50_20260513` | `0.944` | Valid but below the current best. |
+
+Leaderboard snapshot after the 2026-05-13 submission batch:
+
+| Team | Rank | Score | Total submissions |
+|---|---:|---:|---:|
+| `Kun Zhang` | `133` | `0.946` | `70` |
+
+Notes:
+
+- The 2026-05-13 public notebook candidates mostly stayed on the same `0.946` plateau.
+- The IMAAD V50 Perch/ProtoSSM branch scored lower at `0.944`, so it is not a better base for the current public target.
+- A stronger next step needs either a genuinely new complementary signal or a validated full-notebook blend that preserves the competition's code-submission format.
+
+Public sources reviewed or rerun in this cycle:
+
+- [Meenal Sinha improved notebook](https://www.kaggle.com/code/meenalsinha/birdclef-2026-improved)
+- [Zeyad two-branch Perch/SED sidecar](https://www.kaggle.com/code/zeyadmohamadezzat/birdclef-2026-two-branch-perch-sed-sidecar)
+- [Kosuke V8 CV4F aves 7pct May 13](https://www.kaggle.com/code/kosuke123/k123-v8-cv4f-aves7pct-may13)
+- [Kosuke V8 CV4F 3pct May 13](https://www.kaggle.com/code/kosuke123/k123-v8-cv4f-3pct-may13)
+- [Kosuke V8 CV4F 5pct May 13](https://www.kaggle.com/code/kosuke123/k123-v8-cv4f-5pct-may13)
+- [Dacquaviva IMAAD V50 Perch ProtoSSM](https://www.kaggle.com/code/dacquaviva/birdclef-2026-imaad-v50-perch-protossm)
 
 ## 2026-05-12 Submission Batch
 
@@ -96,7 +129,7 @@ Decision: avoid spending further daily submissions on small one-dimensional glob
 
 ## Next Directions
 
-- Fix the public Konbu-head preparation helper so unchanged constants count as successfully matched.
-- Add an ONNX Runtime wheel/kernel source for Croftadams-style notebooks before retrying that branch.
-- Prefer public, fully attachable Kaggle inputs for future submission candidates.
-- Focus on complementary signals rather than small global blend-weight probes.
+- Move beyond same-family V8 derivatives unless the public notebook has a clear new external signal.
+- Build valid full-notebook blends from the strongest `0.946` families instead of static CSV replay.
+- Revisit BirdNET/Perch/SED complementarity only when the attached datasets are complete and reproducible.
+- Keep checking new public code before spending daily submissions.

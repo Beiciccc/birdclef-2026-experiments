@@ -6,11 +6,12 @@ This repository contains the public project summary, experiment notes, submissio
 
 ## Current Public Leaderboard
 
-As of 2026-05-12:
+As of 2026-05-13:
 
 - Team: `Kun Zhang`
 - Best public score: `0.946`
-- Public rank: `546`
+- Public rank: `133`
+- Submission count: `70`
 - Best submissions: `public_kosuke_convnext_may12_20260512`, `public_kosuke_sed_may12_20260512_notebook_submit`
 
 ## Repository Layout
