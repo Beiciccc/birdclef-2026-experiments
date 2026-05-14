@@ -2,20 +2,53 @@
 
 ## Summary
 
-Best confirmed public leaderboard score: `0.946`.
+Best confirmed public leaderboard score: `0.947`.
 
 Current best submission:
 
 | Date | Submission | Public score | Notes |
 |---|---|---:|---|
-| 2026-05-12 | `public_kosuke_convnext_may12_20260512` | `0.946` | Best confirmed public score in this workspace. |
-| 2026-05-12 | `public_kosuke_sed_may12_20260512_notebook_submit` | `0.946` | Tied best confirmed public score. |
+| 2026-05-14 | `public_youssef_0947_tweaks_20260514` | `0.947` | Best confirmed public score in this workspace. |
 
 Current leaderboard snapshot:
 
 | Team | Rank | Score | Total submissions |
 |---|---:|---:|---:|
-| `Kun Zhang` | `133` | `0.946` | `70` |
+| `Kun Zhang` | `267` | `0.947` | `75` |
+
+## 2026-05-14 Submission Batch
+
+Five competition submission records were created. The best confirmed public score improved from `0.946` to `0.947`.
+
+| Submission | Public score | Result |
+|---|---:|---|
+| `public_youssef_0947_tweaks_20260514` | `0.947` | New best in this workspace. |
+| R0947 species-router candidate | `0.944` | Valid but below the current best. |
+| R0947 BirdNET guard candidate | `0.945` | Valid but below the current best. |
+| `public_henry_focal_v57_20260514` | `0.944` | Valid but below the current best. |
+| `public_meenal_improved_retry_20260514` | `0.945` | Valid but below the current best. |
+
+Leaderboard snapshot after the 2026-05-14 submission batch:
+
+| Team | Rank | Score | Total submissions |
+|---|---:|---:|---:|
+| `Kun Zhang` | `267` | `0.947` | `75` |
+
+Notes:
+
+- The strongest public candidate found in this cycle lifted the result by `0.001`, but the public leaderboard has many teams at similar scores, so this did not move the team near the top group.
+- The R0947-style public notebooks were valid submissions but scored between `0.944` and `0.945` in this workspace.
+- Two additional public 0.947-labelled candidates failed during notebook execution and were not competition submissions.
+- The next meaningful improvement likely needs a validated complementary signal or a full inference blend that goes beyond small threshold/postprocessing changes on the same public families.
+
+Public sources reviewed or rerun in this cycle:
+
+- [Small tweaks on LB score 0.947](https://www.kaggle.com/code/youssefmo942009/small-tweaks-on-lb-score-0-947)
+- [BirdCLEF 2026 0.947 public pipeline reproduced](https://www.kaggle.com/code/wangdongyang/birdclef-2026-0-947-lb-public-pipeline-reproduced)
+- [BirdCLEF 2026 0.947 B2 blend](https://www.kaggle.com/code/wangdongyang/birdclef-2026-0-947-lb-b2-blend)
+- [BirdCLEF 2026 LB 0.947 optimized documented](https://www.kaggle.com/code/ayoubmalek/birdclef-2026-lb-0-947-optimized-documented)
+- [BC2026 Raunak0946 focal V57](https://www.kaggle.com/code/henryszy/bc2026-raunak0946-focal-v57)
+- [Meenal Sinha improved notebook](https://www.kaggle.com/code/meenalsinha/birdclef-2026-improved)
 
 ## 2026-05-13 Submission Batch
 

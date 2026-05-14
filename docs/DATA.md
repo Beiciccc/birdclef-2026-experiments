@@ -8,6 +8,7 @@ This repository keeps only lightweight public metadata and result snapshots.
 - `data/leaderboard/public_leaderboard_2026-05-08.zip`: downloaded public leaderboard snapshot.
 - `data/leaderboard/public_leaderboard_2026-05-12.zip`: downloaded public leaderboard snapshot.
 - `data/leaderboard/public_leaderboard_2026-05-13.zip`: downloaded public leaderboard snapshot.
+- `data/leaderboard/public_leaderboard_2026-05-14.zip`: downloaded public leaderboard snapshot.
 
 ## Not Included
 

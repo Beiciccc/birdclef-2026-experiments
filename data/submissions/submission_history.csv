@@ -1,4 +1,9 @@
 fileName,date,description,status,publicScore,privateScore
+submission.csv,2026-05-14 16:30:56.137000,public_meenal_improved_retry_20260514,SubmissionStatus.COMPLETE,0.945,
+submission.csv,2026-05-14 15:31:39.943000,public_henry_focal_v57_20260514,SubmissionStatus.COMPLETE,0.944,
+submission.csv,2026-05-14 14:31:39.007000,public_claude_0947_birdnet_guard_20260514,SubmissionStatus.COMPLETE,0.945,
+submission.csv,2026-05-14 13:19:19.740000,public_claude_0947_species_router_20260514,SubmissionStatus.COMPLETE,0.944,
+submission.csv,2026-05-14 11:59:53.723000,public_youssef_0947_tweaks_20260514,SubmissionStatus.COMPLETE,0.947,
 submission.csv,2026-05-13 01:29:13.337000,public_dacquaviva_imaad_v50_20260513,SubmissionStatus.COMPLETE,0.944,
 submission.csv,2026-05-13 01:19:28.427000,public_kosuke_v8_cv4f_5pct_may13_20260513,SubmissionStatus.COMPLETE,0.946,
 submission.csv,2026-05-13 01:10:33.630000,public_kosuke_v8_cv4f_3pct_may13_20260513,SubmissionStatus.COMPLETE,0.946,
