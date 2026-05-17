@@ -9,6 +9,7 @@ This repository keeps only lightweight public metadata and result snapshots.
 - `data/leaderboard/public_leaderboard_2026-05-12.zip`: downloaded public leaderboard snapshot.
 - `data/leaderboard/public_leaderboard_2026-05-13.zip`: downloaded public leaderboard snapshot.
 - `data/leaderboard/public_leaderboard_2026-05-14.zip`: downloaded public leaderboard snapshot.
+- `data/leaderboard/public_leaderboard_2026-05-17.zip`: downloaded public leaderboard snapshot.
 
 ## Not Included
 
@@ -18,7 +19,7 @@ This repository keeps only lightweight public metadata and result snapshots.
 - Feature caches and mel/embedding arrays.
 - Model checkpoints and uploaded Kaggle Dataset bundles.
 - Temporary kernel output folders.
-- Credential or machine-specific configuration.
+- Private configuration files.
 
 ## Recreating the Data Root
 

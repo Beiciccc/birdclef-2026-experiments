@@ -2,19 +2,54 @@
 
 ## Summary
 
-Best confirmed public leaderboard score: `0.947`.
+Best confirmed public leaderboard score: `0.948`.
 
 Current best submission:
 
 | Date | Submission | Public score | Notes |
 |---|---|---:|---|
-| 2026-05-14 | `public_youssef_0947_tweaks_20260514` | `0.947` | Best confirmed public score in this workspace. |
+| 2026-05-16 | `public_mtoshi_test_0948_20260516` | `0.948` | Tied best confirmed public score in this workspace. |
+| 2026-05-16 | `public_nina_eos4_20260516` | `0.948` | Tied best confirmed public score in this workspace. |
+| 2026-05-16 | `public_youssef_lb_0948_20260516` | `0.948` | Tied best confirmed public score in this workspace. |
 
 Current leaderboard snapshot:
 
 | Team | Rank | Score | Total submissions |
 |---|---:|---:|---:|
-| `Kun Zhang` | `267` | `0.947` | `75` |
+| `Kun Zhang` | `157` | `0.948` | `80` |
+
+## 2026-05-16 Submission Batch
+
+Five competition submission records were created. The best confirmed public score improved from `0.947` to `0.948`.
+
+| Submission | Public score | Result |
+|---|---:|---|
+| `public_mtoshi_test_0948_20260516` | `0.948` | New best in this workspace. |
+| `public_nina_eos4_20260516` | `0.948` | Tied the new best. |
+| `public_youssef_lb_0948_20260516` | `0.948` | Tied the new best. |
+| `public_mtoshi_lb_improved_20260516` | `0.947` | Valid but below the current best. |
+| `public_vyanktesh_protossm_sed_0948_20260516` | `0.945` | Valid but below the current best. |
+
+Leaderboard snapshot after the 2026-05-16 submission batch:
+
+| Team | Rank | Score | Total submissions |
+|---|---:|---:|---:|
+| `Kun Zhang` | `157` | `0.948` | `80` |
+
+Notes:
+
+- The strongest public notebook reruns moved the result onto the `0.948` plateau.
+- Three independent public candidates tied at `0.948`, which is useful confirmation but did not yet close the gap to the front of the public leaderboard.
+- The lower-scoring ProtoSSM/SED rerun suggests that not every `0.948`-labelled public notebook transfers cleanly when rerun in this workspace.
+- The next useful direction is to identify a genuinely complementary signal or a stronger full-notebook ensemble rather than spending submissions on same-score reruns.
+
+Public sources reviewed or rerun in this cycle:
+
+- [EoS.4 public notebook](https://www.kaggle.com/code/nina2025/birdclef-2026-eos-4)
+- [LB 0.948 public notebook](https://www.kaggle.com/code/youssefmo942009/lb-0-948)
+- [Mtoshi LB improved](https://www.kaggle.com/code/mtoshidesu/lb-improved)
+- [Mtoshi test 0.948](https://www.kaggle.com/code/mtoshidesu/test-0-948)
+- [ProtoSSM SED 0.948](https://www.kaggle.com/code/vyankteshdwivedi/birdclef-2026-protossm-sed-0-948)
 
 ## 2026-05-14 Submission Batch
 

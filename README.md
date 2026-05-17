@@ -2,17 +2,17 @@
 
 Public experiment workspace for the Kaggle [BirdCLEF+ 2026](https://www.kaggle.com/competitions/birdclef-2026) code competition.
 
-This repository contains the public project summary, experiment notes, submission history, and public leaderboard snapshots. It does not include Kaggle competition audio, private credentials, local machine paths, model checkpoints, or internal execution details.
+This repository contains the public project summary, experiment notes, submission history, and public leaderboard snapshots. It does not include Kaggle competition audio, private configuration, local paths, model checkpoints, or temporary run artifacts.
 
 ## Current Public Leaderboard
 
-As of 2026-05-14:
+As of 2026-05-17:
 
 - Team: `Kun Zhang`
-- Best public score: `0.947`
-- Public rank: `267`
-- Submission count: `75`
-- Best submission: `public_youssef_0947_tweaks_20260514`
+- Best public score: `0.948`
+- Public rank: `157`
+- Submission count: `80`
+- Best submissions: `public_mtoshi_test_0948_20260516`, `public_nina_eos4_20260516`, `public_youssef_lb_0948_20260516`
 
 ## Repository Layout
 
