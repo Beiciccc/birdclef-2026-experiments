@@ -10,9 +10,9 @@ As of 2026-05-17:
 
 - Team: `Kun Zhang`
 - Best public score: `0.948`
-- Public rank: `157`
-- Submission count: `80`
-- Best submissions: `public_mtoshi_test_0948_20260516`, `public_nina_eos4_20260516`, `public_youssef_lb_0948_20260516`
+- Public rank: `113`
+- Submission count: `84`
+- Best submissions: `public_mtoshi_test_0948_20260516`, `public_nina_eos4_20260516`, `public_youssef_lb_0948_20260516`, `public_pilkwang_time_window_0948_20260517`, `public_zeyad_eos_parity_20260517`
 
 ## Repository Layout
 

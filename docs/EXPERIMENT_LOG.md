@@ -8,6 +8,8 @@ Current best submission:
 
 | Date | Submission | Public score | Notes |
 |---|---|---:|---|
+| 2026-05-17 | `public_pilkwang_time_window_0948_20260517` | `0.948` | Tied best confirmed public score in this workspace. |
+| 2026-05-17 | `public_zeyad_eos_parity_20260517` | `0.948` | Tied best confirmed public score in this workspace. |
 | 2026-05-16 | `public_mtoshi_test_0948_20260516` | `0.948` | Tied best confirmed public score in this workspace. |
 | 2026-05-16 | `public_nina_eos4_20260516` | `0.948` | Tied best confirmed public score in this workspace. |
 | 2026-05-16 | `public_youssef_lb_0948_20260516` | `0.948` | Tied best confirmed public score in this workspace. |
@@ -16,7 +18,38 @@ Current leaderboard snapshot:
 
 | Team | Rank | Score | Total submissions |
 |---|---:|---:|---:|
-| `Kun Zhang` | `157` | `0.948` | `80` |
+| `Kun Zhang` | `113` | `0.948` | `84` |
+
+## 2026-05-17 Submission Batch
+
+Four competition submission records were created. The best confirmed public score remained `0.948`.
+
+| Submission | Public score | Result |
+|---|---:|---|
+| `public_pilkwang_time_window_0948_20260517` | `0.948` | Tied the current best. |
+| `public_zeyad_eos_parity_20260517` | `0.948` | Tied the current best. |
+| `public_adarsh_v55_eslam_20260517` |  | Completed without a public score. |
+| `public_svanik_protossm_fusion_20260517` | `0.943` | Valid but below the current best. |
+
+Leaderboard snapshot after the 2026-05-17 submission batch:
+
+| Team | Rank | Score | Total submissions |
+|---|---:|---:|---:|
+| `Kun Zhang` | `113` | `0.948` | `84` |
+
+Notes:
+
+- Two newer public candidates reproduced the `0.948` plateau but did not move the best score.
+- One Eslam-family rerun completed without a public score, matching the earlier observation that some public notebook versions do not transfer into a scored competition record.
+- The ProtoSSM fusion candidate underperformed at `0.943`, so it is not a stronger base than the current `0.948` group.
+- The public top-10 threshold in this snapshot is about `0.956`, so the next useful step needs a materially stronger public source or a valid full-notebook ensemble with a complementary signal.
+
+Public sources reviewed or rerun in this cycle:
+
+- [Acoustic time-window rank fusion](https://www.kaggle.com/code/pilkwang/948-birdclef-26-acoustic-time-window-rank-fusion)
+- [Eslam V55 candidate](https://www.kaggle.com/code/adarsh5harma/birdclef-2026-v55-eslam)
+- [ProtoSSM fusion engine](https://www.kaggle.com/code/svanikkolli/protossm-fusion-engine)
+- [EoS parity inference](https://www.kaggle.com/code/zeyadmohamadezzat/birdclef-2026-eos-parity-inference)
 
 ## 2026-05-16 Submission Batch
 
