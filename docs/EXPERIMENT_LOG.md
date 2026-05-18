@@ -2,12 +2,16 @@
 
 ## Summary
 
-Best confirmed public leaderboard score: `0.948`.
+Best confirmed public leaderboard score: `0.949`.
 
 Current best submission:
 
 | Date | Submission | Public score | Notes |
 |---|---|---:|---|
+| 2026-05-18 | `public_itshyao_s106_eos5_safealign2_20260518` | `0.949` | New best in this workspace. |
+| 2026-05-18 | `public_nina_eos5_20260518` | `0.949` | Tied the new best. |
+| 2026-05-18 | `public_itshyao_s103_eos5_0949_20260518` | `0.949` | Tied the new best. |
+| 2026-05-18 | `public_adarsh_v63_nina_eos5_20260518` | `0.949` | Tied the new best. |
 | 2026-05-17 | `public_pilkwang_time_window_0948_20260517` | `0.948` | Tied best confirmed public score in this workspace. |
 | 2026-05-17 | `public_zeyad_eos_parity_20260517` | `0.948` | Tied best confirmed public score in this workspace. |
 | 2026-05-16 | `public_mtoshi_test_0948_20260516` | `0.948` | Tied best confirmed public score in this workspace. |
@@ -18,7 +22,40 @@ Current leaderboard snapshot:
 
 | Team | Rank | Score | Total submissions |
 |---|---:|---:|---:|
-| `Kun Zhang` | `113` | `0.948` | `84` |
+| `Kun Zhang` | `188` | `0.949` | `89` |
+
+## 2026-05-18 Submission Batch
+
+Five competition submission records were created. The best confirmed public score improved from `0.948` to `0.949`.
+
+| Submission | Public score | Result |
+|---|---:|---|
+| `public_itshyao_s106_eos5_safealign2_20260518` | `0.949` | New best in this workspace. |
+| `public_nina_eos5_20260518` | `0.949` | Tied the new best. |
+| `public_itshyao_s103_eos5_0949_20260518` | `0.949` | Tied the new best. |
+| `public_adarsh_v63_nina_eos5_20260518` | `0.949` | Tied the new best. |
+| `public_mtoshi_visual_cpu_20260518` | `0.948` | Valid but below the current best. |
+
+Leaderboard snapshot after the 2026-05-18 submission batch:
+
+| Team | Rank | Score | Total submissions |
+|---|---:|---:|---:|
+| `Kun Zhang` | `188` | `0.949` | `89` |
+
+Notes:
+
+- The EoS5/SafeAlign public family transferred cleanly and moved the workspace from the `0.948` plateau to `0.949`.
+- Four independent EoS5-family submissions tied at `0.949`, suggesting this is a stable public plateau rather than a one-off run.
+- The Mtoshi visual CPU branch remained at `0.948`, so it did not add a stronger signal than EoS5.
+- In this snapshot, the public top-50 threshold is about `0.950` and the top-10 threshold is about `0.956`; the next useful step needs a new signal beyond EoS5-family reruns.
+
+Public sources reviewed or rerun in this cycle:
+
+- [S106 EoS5 0949 SafeAlign2](https://www.kaggle.com/code/itshyao/birdclef-2026-s106-eos5-0949-safealign2)
+- [EoS.5](https://www.kaggle.com/code/nina2025/birdclef-2026-eos-5)
+- [S103 Public EoS5 0949](https://www.kaggle.com/code/itshyao/birdclef-2026-s103-public-eos5-0949)
+- [V63 Nina EoS5 fork](https://www.kaggle.com/code/adarsh5harma/birdclef-2026-v63-nina-eos5-fork)
+- [Visual CPU inference](https://www.kaggle.com/code/mtoshidesu/birdclef-2026-visual-cpu-inference)
 
 ## 2026-05-17 Submission Batch
 

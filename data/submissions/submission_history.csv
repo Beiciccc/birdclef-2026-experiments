@@ -1,4 +1,9 @@
 fileName,date,description,status,publicScore,privateScore
+submission.csv,2026-05-18 10:32:35.610000,public_mtoshi_visual_cpu_20260518,SubmissionStatus.COMPLETE,0.948,
+submission.csv,2026-05-18 09:15:16.413000,public_adarsh_v63_nina_eos5_20260518,SubmissionStatus.COMPLETE,0.949,
+submission.csv,2026-05-18 07:52:55.127000,public_itshyao_s103_eos5_0949_20260518,SubmissionStatus.COMPLETE,0.949,
+submission.csv,2026-05-18 06:30:34.823000,public_nina_eos5_20260518,SubmissionStatus.COMPLETE,0.949,
+submission.csv,2026-05-18 05:13:14.650000,public_itshyao_s106_eos5_safealign2_20260518,SubmissionStatus.COMPLETE,0.949,
 submission.csv,2026-05-17 08:28:26.083000,public_svanik_protossm_fusion_20260517,SubmissionStatus.COMPLETE,0.943,
 submission.csv,2026-05-17 06:27:06.667000,public_adarsh_v55_eslam_20260517,SubmissionStatus.COMPLETE,,
 submission.csv,2026-05-17 05:30:53.680000,public_zeyad_eos_parity_20260517,SubmissionStatus.COMPLETE,0.948,
