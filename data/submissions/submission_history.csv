@@ -1,4 +1,9 @@
 fileName,date,description,status,publicScore,privateScore
+submission.csv,2026-05-19 08:17:20.730000,public_cocoa_v129_birdnet_safe_20260519,SubmissionStatus.COMPLETE,0.949,
+submission.csv,2026-05-19 06:47:31.040000,public_cocoa_karnak_safe_20260519,SubmissionStatus.COMPLETE,0.948,
+submission.csv,2026-05-19 05:07:57.997000,public_anthony_ensemble_safe_20260519,SubmissionStatus.COMPLETE,0.949,
+submission.csv,2026-05-19 03:43:36.460000,public_adarsh_v65_karnak_safe_20260519,SubmissionStatus.COMPLETE,0.949,
+submission.csv,2026-05-19 03:30:38.587000,public_karnak_gated_safe_20260519,SubmissionStatus.COMPLETE,0.949,
 submission.csv,2026-05-18 10:32:35.610000,public_mtoshi_visual_cpu_20260518,SubmissionStatus.COMPLETE,0.948,
 submission.csv,2026-05-18 09:15:16.413000,public_adarsh_v63_nina_eos5_20260518,SubmissionStatus.COMPLETE,0.949,
 submission.csv,2026-05-18 07:52:55.127000,public_itshyao_s103_eos5_0949_20260518,SubmissionStatus.COMPLETE,0.949,

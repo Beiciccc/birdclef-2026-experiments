@@ -6,13 +6,13 @@ This repository contains the public project summary, experiment notes, submissio
 
 ## Current Public Leaderboard
 
-As of 2026-05-18:
+As of 2026-05-19:
 
 - Team: `Kun Zhang`
 - Best public score: `0.949`
-- Public rank: `188`
-- Submission count: `89`
-- Best submissions: `public_itshyao_s106_eos5_safealign2_20260518`, `public_nina_eos5_20260518`, `public_itshyao_s103_eos5_0949_20260518`, `public_adarsh_v63_nina_eos5_20260518`
+- Public rank: `174`
+- Submission count: `94`
+- Best submissions: `public_itshyao_s106_eos5_safealign2_20260518`, `public_nina_eos5_20260518`, `public_itshyao_s103_eos5_0949_20260518`, `public_adarsh_v63_nina_eos5_20260518`, `public_karnak_gated_safe_20260519`, `public_adarsh_v65_karnak_safe_20260519`, `public_anthony_ensemble_safe_20260519`, `public_cocoa_v129_birdnet_safe_20260519`
 
 ## Repository Layout
 

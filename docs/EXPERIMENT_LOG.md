@@ -8,6 +8,10 @@ Current best submission:
 
 | Date | Submission | Public score | Notes |
 |---|---|---:|---|
+| 2026-05-19 | `public_karnak_gated_safe_20260519` | `0.949` | Tied the current best. |
+| 2026-05-19 | `public_adarsh_v65_karnak_safe_20260519` | `0.949` | Tied the current best. |
+| 2026-05-19 | `public_anthony_ensemble_safe_20260519` | `0.949` | Tied the current best. |
+| 2026-05-19 | `public_cocoa_v129_birdnet_safe_20260519` | `0.949` | Tied the current best. |
 | 2026-05-18 | `public_itshyao_s106_eos5_safealign2_20260518` | `0.949` | New best in this workspace. |
 | 2026-05-18 | `public_nina_eos5_20260518` | `0.949` | Tied the new best. |
 | 2026-05-18 | `public_itshyao_s103_eos5_0949_20260518` | `0.949` | Tied the new best. |
@@ -22,7 +26,43 @@ Current leaderboard snapshot:
 
 | Team | Rank | Score | Total submissions |
 |---|---:|---:|---:|
-| `Kun Zhang` | `188` | `0.949` | `89` |
+| `Kun Zhang` | `174` | `0.949` | `94` |
+
+## 2026-05-19 Submission Batch
+
+Five competition submission records were created. The best confirmed public score remained `0.949`.
+
+| Submission | Public score | Result |
+|---|---:|---|
+| `public_karnak_gated_safe_20260519` | `0.949` | Tied the current best. |
+| `public_adarsh_v65_karnak_safe_20260519` | `0.949` | Tied the current best. |
+| `public_anthony_ensemble_safe_20260519` | `0.949` | Tied the current best. |
+| `public_cocoa_karnak_safe_20260519` | `0.948` | Valid but below the current best. |
+| `public_cocoa_v129_birdnet_safe_20260519` | `0.949` | Tied the current best. |
+
+Leaderboard snapshot after the 2026-05-19 submission batch:
+
+| Team | Rank | Score | Total submissions |
+|---|---:|---:|---:|
+| `Kun Zhang` | `174` | `0.949` | `94` |
+
+Notes:
+
+- The Karnak gated rank-fusion family and related forks transferred cleanly but stayed on the `0.949` plateau.
+- The CocoaAI Karnak patched variant underperformed at `0.948`, despite using a similar high-scoring base with an additional BirdNET attachment.
+- The CocoaAI V129 EoS4 BirdNET candidate returned to `0.949`, so BirdNET packaging did not produce a confirmed public improvement in this batch.
+- Two additional candidates were tested as public kernel runs but were not competition submissions: the m-toshi V6 safe run failed on a dry-run cache alignment check, and the Yao S120 launcher required an unavailable source notebook attachment.
+- In this snapshot, the public top-50 threshold is about `0.951`, top-20 is about `0.954`, and top-10 is about `0.956`; a move into the next public tier likely requires a genuinely new signal rather than more EoS/Karnak-family replay.
+
+Public sources reviewed or rerun in this cycle:
+
+- [Gated Rank Fusion Pipeline](https://www.kaggle.com/code/karnakbaevarthur/gated-rank-fusion-pipeline)
+- [V65 Karnak gated rank fork](https://www.kaggle.com/code/adarsh5harma/birdclef-2026-v65-karnak-gated-rank-fork)
+- [BirdCLEF+ 2026 Ensemble](https://www.kaggle.com/code/anthonytherrien/birdclef-2026-ensemble)
+- [testBirdCLEF+ 2026 V6](https://www.kaggle.com/code/mtoshidesu/testbirdclef-2026-v6)
+- [S120 Gated BirdNET Safe Launcher](https://www.kaggle.com/code/itshyao/birdclef-2026-s120-gated-birdnet-safe-launcher)
+- [BC26 Karnak Advance Ensemble Patched](https://www.kaggle.com/code/cocoaai/bc26-karnak-advance-ensemble-patched)
+- [BC26 Stars V129 Exp019 EoS4 BirdNET](https://www.kaggle.com/code/cocoaai/bc26-stars-v129-exp019-eos4-birdnet)
 
 ## 2026-05-18 Submission Batch
 
