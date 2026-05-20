@@ -8,6 +8,10 @@ Current best submission:
 
 | Date | Submission | Public score | Notes |
 |---|---|---:|---|
+| 2026-05-20 | `public_pilkwang_prior_field_20260520` | `0.949` | Tied the current best. |
+| 2026-05-20 | `public_itshyao_s124_rankblend_20260520` | `0.949` | Tied the current best. |
+| 2026-05-20 | `public_meenal_improved_may20_20260520` | `0.949` | Tied the current best. |
+| 2026-05-20 | `public_kojimar_prior_axis_20260520` | `0.949` | Tied the current best. |
 | 2026-05-19 | `public_karnak_gated_safe_20260519` | `0.949` | Tied the current best. |
 | 2026-05-19 | `public_adarsh_v65_karnak_safe_20260519` | `0.949` | Tied the current best. |
 | 2026-05-19 | `public_anthony_ensemble_safe_20260519` | `0.949` | Tied the current best. |
@@ -26,7 +30,42 @@ Current leaderboard snapshot:
 
 | Team | Rank | Score | Total submissions |
 |---|---:|---:|---:|
-| `Kun Zhang` | `174` | `0.949` | `94` |
+| `Kun Zhang` | `251` | `0.949` | `99` |
+
+## 2026-05-20 Submission Batch
+
+Five competition submission records were created. The best confirmed public score remained `0.949`.
+
+| Submission | Public score | Result |
+|---|---:|---|
+| `public_pilkwang_prior_field_20260520` | `0.949` | Tied the current best; prior-field fusion did not break the plateau. |
+| `public_itshyao_s124_rankblend_20260520` | `0.949` | Tied the current best; S124/G124 rankblend did not lift the public score. |
+| `public_meenal_improved_may20_20260520` | `0.949` | Tied the current best. |
+| `public_zeyad_proto_temporal_20260520` | `0.948` | Valid but below the current best. |
+| `public_kojimar_prior_axis_20260520` | `0.949` | Tied the current best. |
+
+Leaderboard snapshot after the 2026-05-20 submission batch:
+
+| Team | Rank | Score | Total submissions |
+|---|---:|---:|---:|
+| `Kun Zhang` | `251` | `0.949` | `99` |
+
+Notes:
+
+- Public leaderboard thresholds in this snapshot: rank 1 `0.962`, rank 10 `0.956`, rank 20 `0.954`, rank 50 `0.951`, and rank 100 `0.949`.
+- Upstream notebook metadata had to be normalized before reruns; retaining original public notebook identifiers caused Kaggle to treat forks as updates to notebooks owned by other users.
+- The EoS6 candidate was held back after dry-run validation exposed a row-id alignment mismatch in the final robust blend path.
+- Four of five completed submissions tied the `0.949` plateau. The more differentiated proto/temporal branch scored `0.948`, so this batch did not confirm a stronger complementary public signal.
+- The next useful direction is a genuinely distinct non-EoS/Karnak signal or a trained student ensemble that improves ranking under the current code-submission format.
+
+Public sources reviewed or rerun in this cycle:
+
+- [Acoustic prior field fusion](https://www.kaggle.com/code/pilkwang/949-birdclef-2026-acoustic-prior-field-fusion)
+- [EoS.6](https://www.kaggle.com/code/nina2025/birdclef-2026-eos-6-sz)
+- [S124/S114/G124 rankblend](https://www.kaggle.com/code/itshyao/birdclef-2026-s124-s114-g124-f1-rankblend)
+- [Meenal Sinha improved notebook](https://www.kaggle.com/code/meenalsinha/birdclef-2026-improved)
+- [Proto fusion and temporal flip](https://www.kaggle.com/code/zeyadmohamadezzat/birdclef-2026-proto-fusion-and-temporal-flip)
+- [Prior axis rank fusion](https://www.kaggle.com/code/kojimar/0-949-lb-birdclef-2026-prior-axis-rank-fusion)
 
 ## 2026-05-19 Submission Batch
 
