@@ -1,4 +1,9 @@
 fileName,date,description,status,publicScore,privateScore
+submission.csv,2026-05-21 02:58:55.163000,public_henry_nfnet_v83_20260521,SubmissionStatus.COMPLETE,0.949,
+submission.csv,2026-05-21 02:58:52.133000,public_kijiang_v341_safe_20260521,SubmissionStatus.COMPLETE,0.949,
+submission.csv,2026-05-21 02:55:05.417000,public_eos6_safe_writer_20260521,SubmissionStatus.COMPLETE,0.949,
+submission.csv,2026-05-21 02:55:01.813000,public_anthony_s124_blend_20260521,SubmissionStatus.COMPLETE,0.949,
+submission.csv,2026-05-21 02:54:58.717000,public_pilkwang_prior_field_20260521,SubmissionStatus.COMPLETE,0.949,
 submission.csv,2026-05-20 09:49:42.760000,public_kojimar_prior_axis_20260520,SubmissionStatus.COMPLETE,0.949,
 submission.csv,2026-05-20 08:59:31.953000,public_zeyad_proto_temporal_20260520,SubmissionStatus.COMPLETE,0.948,
 submission.csv,2026-05-20 07:29:16.680000,public_meenal_improved_may20_20260520,SubmissionStatus.COMPLETE,0.949,

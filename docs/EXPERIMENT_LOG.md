@@ -8,6 +8,11 @@ Current best submission:
 
 | Date | Submission | Public score | Notes |
 |---|---|---:|---|
+| 2026-05-21 | `public_pilkwang_prior_field_20260521` | `0.949` | Tied the current best. |
+| 2026-05-21 | `public_anthony_s124_blend_20260521` | `0.949` | Tied the current best. |
+| 2026-05-21 | `public_eos6_safe_writer_20260521` | `0.949` | Tied the current best. |
+| 2026-05-21 | `public_kijiang_v341_safe_20260521` | `0.949` | Tied the current best. |
+| 2026-05-21 | `public_henry_nfnet_v83_20260521` | `0.949` | Tied the current best. |
 | 2026-05-20 | `public_pilkwang_prior_field_20260520` | `0.949` | Tied the current best. |
 | 2026-05-20 | `public_itshyao_s124_rankblend_20260520` | `0.949` | Tied the current best. |
 | 2026-05-20 | `public_meenal_improved_may20_20260520` | `0.949` | Tied the current best. |
@@ -30,7 +35,41 @@ Current leaderboard snapshot:
 
 | Team | Rank | Score | Total submissions |
 |---|---:|---:|---:|
-| `Kun Zhang` | `251` | `0.949` | `99` |
+| `Kun Zhang` | `154` | `0.949` | `104` |
+
+## 2026-05-21 Submission Batch
+
+Five competition submission records were created. The best confirmed public score remained `0.949`.
+
+| Submission | Public score | Result |
+|---|---:|---|
+| `public_pilkwang_prior_field_20260521` | `0.949` | Tied the current best; the refreshed prior-field variant did not break the plateau. |
+| `public_anthony_s124_blend_20260521` | `0.949` | Tied the current best. |
+| `public_eos6_safe_writer_20260521` | `0.949` | Tied the current best; safe writer resolved the previous dry-run alignment blocker. |
+| `public_kijiang_v341_safe_20260521` | `0.949` | Tied the current best. |
+| `public_henry_nfnet_v83_20260521` | `0.949` | Tied the current best; NFNet-family diversity did not produce a confirmed public lift. |
+
+Leaderboard snapshot after the 2026-05-21 submission batch:
+
+| Team | Rank | Score | Total submissions |
+|---|---:|---:|---:|
+| `Kun Zhang` | `154` | `0.949` | `104` |
+
+Notes:
+
+- Public leaderboard thresholds in this snapshot: rank 1 `0.962`, rank 10 `0.956`, rank 20 `0.954`, rank 50 `0.951`, rank 72 `0.950`, and rank 100 `0.949`.
+- The 2026-05-21 Pilkwang refresh differs from the prior run and includes a conservative masked BirdNET sidecar, but it still scored `0.949`.
+- EoS6 safe writer and the S124 blend transferred cleanly, confirming that the previous row-id alignment issue was handled, but neither produced a public increase.
+- Kijiang v341 and NFNet v83 were included for diversity against the EoS/Karnak family; both tied the plateau.
+- Moving out of the current rank cluster likely requires a true `0.950+` signal, not another low-perturbation replay of the same public families.
+
+Public sources reviewed or rerun in this cycle:
+
+- [Acoustic prior field fusion](https://www.kaggle.com/code/pilkwang/949-birdclef-2026-acoustic-prior-field-fusion)
+- [S124/S114/G124 F1 blend](https://www.kaggle.com/code/anthonytherrien/birdclef-2026-s124-s114-g124-f1-blend)
+- [EoS6 safe writer](https://www.kaggle.com/code/rajnish1419kumar/birdclef-2026-eos6-sz-safe-writer)
+- [Kijiang v341 safe writer](https://www.kaggle.com/code/rajnish1419kumar/birdclef-2026-kijiang-v341-safe-writer)
+- [Rankpower NFNet v83](https://www.kaggle.com/code/henryszy/bc2026-rankpower-nfnet-v83)
 
 ## 2026-05-20 Submission Batch
 
