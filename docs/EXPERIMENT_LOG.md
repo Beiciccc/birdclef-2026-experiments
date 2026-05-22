@@ -8,6 +8,9 @@ Current best submission:
 
 | Date | Submission | Public score | Notes |
 |---|---|---:|---|
+| 2026-05-22 | `public_r0952_run2_sidecar_20260522` | `0.949` | Tied the current best. |
+| 2026-05-22 | `public_anthony_blend2_20260522` | `0.949` | Tied the current best. |
+| 2026-05-22 | `public_itshyao_s128_top2_20260522` | `0.949` | Tied the current best. |
 | 2026-05-21 | `public_pilkwang_prior_field_20260521` | `0.949` | Tied the current best. |
 | 2026-05-21 | `public_anthony_s124_blend_20260521` | `0.949` | Tied the current best. |
 | 2026-05-21 | `public_eos6_safe_writer_20260521` | `0.949` | Tied the current best. |
@@ -35,7 +38,40 @@ Current leaderboard snapshot:
 
 | Team | Rank | Score | Total submissions |
 |---|---:|---:|---:|
-| `Kun Zhang` | `154` | `0.949` | `104` |
+| `Kun Zhang` | `200` | `0.949` | `108` |
+
+## 2026-05-22 Submission Batch
+
+Five competition submission records were created. Four had returned when this cycle was closed; one remained in Kaggle's pending scoring state. The best confirmed public score remained `0.949`.
+
+| Submission | Public score | Result |
+|---|---:|---|
+| `public_public0952_probe_v136_20260522` |  | Pending when the cycle was closed; not counted in the leaderboard snapshot below. |
+| `public_r0952_run2_sidecar_20260522` | `0.949` | Tied the current best. |
+| `public_anthony_blend2_20260522` | `0.949` | Tied the current best. |
+| `public_itshyao_s128_top2_20260522` | `0.949` | Tied the current best. |
+| `public_birdnet_sitehour_exp083_20260522` | `0.946` | Valid but below the current best. |
+
+Leaderboard snapshot after the returned 2026-05-22 submissions:
+
+| Team | Rank | Score | Total submissions |
+|---|---:|---:|---:|
+| `Kun Zhang` | `200` | `0.949` | `108` |
+
+Notes:
+
+- The pending `public_public0952_probe_v136_20260522` record was not reflected in the leaderboard snapshot; the latest counted submission timestamp was `2026-05-22 02:01:24`.
+- Public leaderboard thresholds in this snapshot: rank 1 `0.963`, rank 10 `0.957`, rank 20 `0.955`, rank 50 `0.952`, and rank 100 `0.949`.
+- R0952 sidecar, Anthony Blend2, and S128 Top2 rankblend all tied the `0.949` plateau.
+- The BirdNET site-hour candidate returned `0.946`, so it did not add a stronger public signal in this batch.
+- The next useful direction remains a genuinely distinct `0.950+` signal; same-family rankblend replays are not moving the public score.
+
+Public sources reviewed or rerun in this cycle:
+
+- [Public0952 probe](https://www.kaggle.com/code/starsdaisuki/birdclef-2026-v136-public0952-may22)
+- [Anthony Blend2](https://www.kaggle.com/code/anthonytherrien/birdclef-2026-blend-2)
+- [S128/S124v2/G127 Top2 rankblend](https://www.kaggle.com/code/itshyao/birdclef-2026-s128-s124v2-g127-top2-rankblend)
+- [BirdNET site-hour candidate](https://www.kaggle.com/code/chenyfdws/bc26-exp083-birdnet-sitehour-safe)
 
 ## 2026-05-21 Submission Batch
 
