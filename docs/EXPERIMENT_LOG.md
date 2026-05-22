@@ -38,29 +38,29 @@ Current leaderboard snapshot:
 
 | Team | Rank | Score | Total submissions |
 |---|---:|---:|---:|
-| `Kun Zhang` | `200` | `0.949` | `108` |
+| `Kun Zhang` | `204` | `0.949` | `108` |
 
 ## 2026-05-22 Submission Batch
 
-Five competition submission records were created. Four had returned when this cycle was closed; one remained in Kaggle's pending scoring state. The best confirmed public score remained `0.949`.
+Five competition submission records were created. Four completed successfully and one ended with an error. The best confirmed public score remained `0.949`.
 
 | Submission | Public score | Result |
 |---|---:|---|
-| `public_public0952_probe_v136_20260522` |  | Pending when the cycle was closed; not counted in the leaderboard snapshot below. |
+| `public_public0952_probe_v136_20260522` |  | Ended with `SubmissionStatus.ERROR`; not counted in the leaderboard snapshot below. |
 | `public_r0952_run2_sidecar_20260522` | `0.949` | Tied the current best. |
 | `public_anthony_blend2_20260522` | `0.949` | Tied the current best. |
 | `public_itshyao_s128_top2_20260522` | `0.949` | Tied the current best. |
 | `public_birdnet_sitehour_exp083_20260522` | `0.946` | Valid but below the current best. |
 
-Leaderboard snapshot after the returned 2026-05-22 submissions:
+Leaderboard snapshot after the 2026-05-22 submissions:
 
 | Team | Rank | Score | Total submissions |
 |---|---:|---:|---:|
-| `Kun Zhang` | `200` | `0.949` | `108` |
+| `Kun Zhang` | `204` | `0.949` | `108` |
 
 Notes:
 
-- The pending `public_public0952_probe_v136_20260522` record was not reflected in the leaderboard snapshot; the latest counted submission timestamp was `2026-05-22 02:01:24`.
+- The errored `public_public0952_probe_v136_20260522` record was not reflected in the leaderboard snapshot; the latest counted submission timestamp was `2026-05-22 02:01:24`.
 - Public leaderboard thresholds in this snapshot: rank 1 `0.963`, rank 10 `0.957`, rank 20 `0.955`, rank 50 `0.952`, and rank 100 `0.949`.
 - R0952 sidecar, Anthony Blend2, and S128 Top2 rankblend all tied the `0.949` plateau.
 - The BirdNET site-hour candidate returned `0.946`, so it did not add a stronger public signal in this batch.

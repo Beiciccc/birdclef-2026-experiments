@@ -3,7 +3,7 @@ submission.csv,2026-05-22 02:01:24.973000,public_anthony_blend2_20260522,Submiss
 submission.csv,2026-05-22 01:55:17.947000,public_birdnet_sitehour_exp083_20260522,SubmissionStatus.COMPLETE,0.946,
 submission.csv,2026-05-22 01:55:14.470000,public_itshyao_s128_top2_20260522,SubmissionStatus.COMPLETE,0.949,
 submission.csv,2026-05-22 01:55:10.243000,public_r0952_run2_sidecar_20260522,SubmissionStatus.COMPLETE,0.949,
-submission.csv,2026-05-22 01:48:55.620000,public_public0952_probe_v136_20260522,SubmissionStatus.PENDING,,
+submission.csv,2026-05-22 01:48:55.620000,public_public0952_probe_v136_20260522,SubmissionStatus.ERROR,,
 submission.csv,2026-05-21 02:58:55.163000,public_henry_nfnet_v83_20260521,SubmissionStatus.COMPLETE,0.949,
 submission.csv,2026-05-21 02:58:52.133000,public_kijiang_v341_safe_20260521,SubmissionStatus.COMPLETE,0.949,
 submission.csv,2026-05-21 02:55:05.417000,public_eos6_safe_writer_20260521,SubmissionStatus.COMPLETE,0.949,
