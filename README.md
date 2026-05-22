@@ -10,9 +10,9 @@ As of 2026-05-22:
 
 - Team: `Kun Zhang`
 - Best public score: `0.949`
-- Public rank: `204`
-- Submission count: `108`
-- Best recent submissions: `public_r0952_run2_sidecar_20260522`, `public_anthony_blend2_20260522`, `public_itshyao_s128_top2_20260522`, `public_kijiang_v341_safe_20260521`, `public_henry_nfnet_v83_20260521`
+- Public rank: `207`
+- Submission count: `109`
+- Best recent submissions: `public_pcen_sidecar_20260522`, `public_r0952_run2_sidecar_20260522`, `public_anthony_blend2_20260522`, `public_itshyao_s128_top2_20260522`, `public_henry_nfnet_v83_20260521`
 
 ## Repository Layout
 

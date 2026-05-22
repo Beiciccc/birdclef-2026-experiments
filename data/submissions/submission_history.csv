@@ -1,4 +1,5 @@
 fileName,date,description,status,publicScore,privateScore
+submission.csv,2026-05-22 18:45:02.133000,public_pcen_sidecar_20260522,SubmissionStatus.COMPLETE,0.949,
 submission.csv,2026-05-22 02:01:24.973000,public_anthony_blend2_20260522,SubmissionStatus.COMPLETE,0.949,
 submission.csv,2026-05-22 01:55:17.947000,public_birdnet_sitehour_exp083_20260522,SubmissionStatus.COMPLETE,0.946,
 submission.csv,2026-05-22 01:55:14.470000,public_itshyao_s128_top2_20260522,SubmissionStatus.COMPLETE,0.949,

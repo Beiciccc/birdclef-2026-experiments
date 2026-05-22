@@ -8,6 +8,7 @@ Current best submission:
 
 | Date | Submission | Public score | Notes |
 |---|---|---:|---|
+| 2026-05-22 | `public_pcen_sidecar_20260522` | `0.949` | Tied the current best. |
 | 2026-05-22 | `public_r0952_run2_sidecar_20260522` | `0.949` | Tied the current best. |
 | 2026-05-22 | `public_anthony_blend2_20260522` | `0.949` | Tied the current best. |
 | 2026-05-22 | `public_itshyao_s128_top2_20260522` | `0.949` | Tied the current best. |
@@ -38,15 +39,16 @@ Current leaderboard snapshot:
 
 | Team | Rank | Score | Total submissions |
 |---|---:|---:|---:|
-| `Kun Zhang` | `204` | `0.949` | `108` |
+| `Kun Zhang` | `207` | `0.949` | `109` |
 
 ## 2026-05-22 Submission Batch
 
-Five competition submission records were created. Four completed successfully and one ended with an error. The best confirmed public score remained `0.949`.
+Six competition submission records were created. Five completed successfully and one ended with an error. The best confirmed public score remained `0.949`.
 
 | Submission | Public score | Result |
 |---|---:|---|
 | `public_public0952_probe_v136_20260522` |  | Ended with `SubmissionStatus.ERROR`; not counted in the leaderboard snapshot below. |
+| `public_pcen_sidecar_20260522` | `0.949` | Tied the current best; PCEN/ConvNeXt sidecar did not break the plateau. |
 | `public_r0952_run2_sidecar_20260522` | `0.949` | Tied the current best. |
 | `public_anthony_blend2_20260522` | `0.949` | Tied the current best. |
 | `public_itshyao_s128_top2_20260522` | `0.949` | Tied the current best. |
@@ -56,19 +58,21 @@ Leaderboard snapshot after the 2026-05-22 submissions:
 
 | Team | Rank | Score | Total submissions |
 |---|---:|---:|---:|
-| `Kun Zhang` | `204` | `0.949` | `108` |
+| `Kun Zhang` | `207` | `0.949` | `109` |
 
 Notes:
 
-- The errored `public_public0952_probe_v136_20260522` record was not reflected in the leaderboard snapshot; the latest counted submission timestamp was `2026-05-22 02:01:24`.
+- The errored `public_public0952_probe_v136_20260522` record was not reflected in the leaderboard snapshot; the latest counted submission timestamp was `2026-05-22 18:45:02`.
 - Public leaderboard thresholds in this snapshot: rank 1 `0.963`, rank 10 `0.957`, rank 20 `0.955`, rank 50 `0.952`, and rank 100 `0.949`.
 - R0952 sidecar, Anthony Blend2, and S128 Top2 rankblend all tied the `0.949` plateau.
 - The BirdNET site-hour candidate returned `0.946`, so it did not add a stronger public signal in this batch.
+- The PCEN/ConvNeXt sidecar candidate returned `0.949`; it was a valid non-BirdNET sidecar test, but still tied the plateau.
 - The next useful direction remains a genuinely distinct `0.950+` signal; same-family rankblend replays are not moving the public score.
 
 Public sources reviewed or rerun in this cycle:
 
 - [Public0952 probe](https://www.kaggle.com/code/starsdaisuki/birdclef-2026-v136-public0952-may22)
+- [PCEN sidecar package](https://www.kaggle.com/code/pilkwang/birdclef-2026-pcen-sidecar-package)
 - [Anthony Blend2](https://www.kaggle.com/code/anthonytherrien/birdclef-2026-blend-2)
 - [S128/S124v2/G127 Top2 rankblend](https://www.kaggle.com/code/itshyao/birdclef-2026-s128-s124v2-g127-top2-rankblend)
 - [BirdNET site-hour candidate](https://www.kaggle.com/code/chenyfdws/bc26-exp083-birdnet-sitehour-safe)
