@@ -8,6 +8,10 @@ Current best submission:
 
 | Date | Submission | Public score | Notes |
 |---|---|---:|---|
+| 2026-05-23 | `public_junseong_eos5_g004_inkernel_20260523` | `0.949` | Tied the current best. |
+| 2026-05-23 | `public_gendaijin_junseong_eos6_20260523` | `0.949` | Tied the current best. |
+| 2026-05-23 | `public_nicolas_nfnet_aves_lprior075_20260523` | `0.949` | Tied the current best. |
+| 2026-05-23 | `public_mtoshi_eos6_bz_20260523` | `0.949` | Tied the current best. |
 | 2026-05-22 | `public_pcen_sidecar_20260522` | `0.949` | Tied the current best. |
 | 2026-05-22 | `public_r0952_run2_sidecar_20260522` | `0.949` | Tied the current best. |
 | 2026-05-22 | `public_anthony_blend2_20260522` | `0.949` | Tied the current best. |
@@ -39,7 +43,42 @@ Current leaderboard snapshot:
 
 | Team | Rank | Score | Total submissions |
 |---|---:|---:|---:|
-| `Kun Zhang` | `207` | `0.949` | `109` |
+| `Kun Zhang` | `168` | `0.949` | `114` |
+
+## 2026-05-23 Submission Batch
+
+Five competition submissions completed successfully. The best confirmed public score remained `0.949`, while the public rank in the latest snapshot improved to `168` within the same score tie group.
+
+| Submission | Public score | Result |
+|---|---:|---|
+| `public_junseong_eos5_g004_inkernel_20260523` | `0.949` | Tied the current best; G004 score-blend sidecar did not break the plateau. |
+| `public_gendaijin_junseong_eos6_20260523` | `0.949` | Tied the current best. |
+| `public_nicolas_nfnet_aves_lprior075_20260523` | `0.949` | Tied the current best; NFNet/Aves diversity did not add a confirmed lift. |
+| `public_scenery_eos6_v7_power090_extreme_20260523` | `0.946` | Valid but below the current best. |
+| `public_mtoshi_eos6_bz_20260523` | `0.949` | Tied the current best. |
+
+Leaderboard snapshot after the 2026-05-23 submissions:
+
+| Team | Rank | Score | Total submissions |
+|---|---:|---:|---:|
+| `Kun Zhang` | `168` | `0.949` | `114` |
+
+Notes:
+
+- Public leaderboard thresholds in this snapshot: rank 1 `0.963`, rank 10 `0.957`, rank 20 `0.955`, rank 50 `0.952`, rank 100 `0.949`, and rank 200 `0.949`.
+- Four of five completed submissions tied the `0.949` plateau. The Scenery EoS6 power variant scored `0.946`, so it is not useful as a standalone public signal.
+- The more differentiated NFNet/Aves branch tied `0.949`, which confirms transfer validity but not a lift.
+- One SED ensemble candidate was tested as a notebook run and failed before competition submission because required model data was not available in the copied metadata.
+- The next useful direction remains a genuinely new complementary signal or a trained student/teacher branch that can move beyond the current `0.949` tie cluster.
+
+Public sources reviewed or rerun in this cycle:
+
+- [EoS5 G004 scoreblend](https://www.kaggle.com/code/junseonglee11/birdclef2026-eos5-scoreblend-g004-inkernel-v1)
+- [Gendaijin Junseong EoS6 rerun](https://www.kaggle.com/code/gendaijin/birdclef2026-day0523-junseong)
+- [NFNet Aves lprior075](https://www.kaggle.com/code/nicolasschuldt/nfnet-aves-lprior075)
+- [EoS.6 v7 power 0.90 extreme](https://www.kaggle.com/code/scenerysunfireink/eos-6-v7-power-0-90-extreme)
+- [Mtoshi EoS6 BZ](https://www.kaggle.com/code/mtoshidesu/testbirdclef-2026-eos-6-bz)
+- [SED ensemble submit v3](https://www.kaggle.com/code/anatoly7m/bc2026-iter-5-sed-ensemble-submit-v3)
 
 ## 2026-05-22 Submission Batch
 
