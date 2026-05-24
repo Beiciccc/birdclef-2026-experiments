@@ -8,6 +8,10 @@ Current best submission:
 
 | Date | Submission | Public score | Notes |
 |---|---|---:|---|
+| 2026-05-24 | `public_raunak_v9_update_20260524` | `0.949` | Tied the current best. |
+| 2026-05-24 | `public_anthony_gated_rank_20260524` | `0.949` | Tied the current best. |
+| 2026-05-24 | `public_adarsh_v68_w020_20260524` | `0.949` | Tied the current best. |
+| 2026-05-24 | `public_minyam_eos6_fork_20260524` | `0.949` | Tied the current best. |
 | 2026-05-23 | `public_junseong_eos5_g004_inkernel_20260523` | `0.949` | Tied the current best. |
 | 2026-05-23 | `public_gendaijin_junseong_eos6_20260523` | `0.949` | Tied the current best. |
 | 2026-05-23 | `public_nicolas_nfnet_aves_lprior075_20260523` | `0.949` | Tied the current best. |
@@ -43,7 +47,41 @@ Current leaderboard snapshot:
 
 | Team | Rank | Score | Total submissions |
 |---|---:|---:|---:|
-| `Kun Zhang` | `168` | `0.949` | `114` |
+| `Kun Zhang` | `177` | `0.949` | `119` |
+
+## 2026-05-24 Submission Batch
+
+Five competition submissions completed. The best confirmed public score remained `0.949`; the latest public snapshot placed the team at rank `177` with `119` total submissions.
+
+| Submission | Public score | Result |
+|---|---:|---|
+| `public_raunak_v9_update_20260524` | `0.949` | Tied the current best. |
+| `public_anthony_gated_rank_20260524` | `0.949` | Tied the current best; gated rank fusion did not add a confirmed public lift. |
+| `public_adarsh_v68_w020_20260524` | `0.949` | Tied the current best. |
+| `public_minyam_eos6_fork_20260524` | `0.949` | Tied the current best; used as a replacement after a failed pre-submission run. |
+| `public_pilkwang_eos6_pcen_rank_20260524` |  | Completed in Kaggle submissions but returned an empty publicScore field; no confirmed leaderboard lift. |
+
+Leaderboard snapshot after the 2026-05-24 submissions:
+
+| Team | Rank | Score | Total submissions |
+|---|---:|---:|---:|
+| `Kun Zhang` | `177` | `0.949` | `119` |
+
+Notes:
+
+- Public leaderboard thresholds in this snapshot: rank 1 `0.963`, rank 10 `0.958`, rank 20 `0.956`, rank 50 `0.952`, rank 100 `0.950`, rank 150 `0.949`, and rank 200 `0.949`.
+- Four scored submissions tied the `0.949` plateau. The Pilkwang EoS6 PCEN rank-sidecar run completed, but Kaggle returned no publicScore value for the submission record.
+- `bc26-inner-ensemble-v2` failed during notebook execution before competition submission because no usable CSV inputs were found for its final fusion step; it was replaced by the Minyam EoS6 fork.
+- The newest public code tested in this batch still did not break the plateau, so the next useful direction remains a trained complementary branch or a stronger cross-family ensemble with a validated `0.950+` public signal.
+
+Public sources reviewed or rerun in this cycle:
+
+- [Pilkwang EoS6 PCEN rank sidecar](https://www.kaggle.com/code/pilkwang/birdclef-2026-eos6-pcen-rank-sidecar)
+- [Scenery inner ensemble v2](https://www.kaggle.com/code/scenerysunfireink/bc26-inner-ensemble-v2)
+- [Gated rank fusion pipeline](https://www.kaggle.com/code/anthonytherrien/gated-rank-fusion-pipeline)
+- [Adarsh v68 phase1 weight 0.20](https://www.kaggle.com/code/adarsh5harma/birdclef-2026-v68-phase1-weight-0-20)
+- [Raunak v9](https://www.kaggle.com/code/raunakdey07/birdclef-2026-v9)
+- [Minyam EoS6 fork](https://www.kaggle.com/code/minyam/birdclef-eos6-fork)
 
 ## 2026-05-23 Submission Batch
 

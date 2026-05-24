@@ -6,13 +6,13 @@ This repository contains the public project summary, experiment notes, submissio
 
 ## Current Public Leaderboard
 
-As of 2026-05-23:
+As of 2026-05-24:
 
 - Team: `Kun Zhang`
 - Best public score: `0.949`
-- Public rank: `168`
-- Submission count: `114`
-- Best recent submissions: `public_junseong_eos5_g004_inkernel_20260523`, `public_gendaijin_junseong_eos6_20260523`, `public_nicolas_nfnet_aves_lprior075_20260523`, `public_mtoshi_eos6_bz_20260523`, `public_pcen_sidecar_20260522`
+- Public rank: `177`
+- Submission count: `119`
+- Best recent submissions: `public_raunak_v9_update_20260524`, `public_anthony_gated_rank_20260524`, `public_adarsh_v68_w020_20260524`, `public_minyam_eos6_fork_20260524`, `public_mtoshi_eos6_bz_20260523`
 
 ## Repository Layout
 
