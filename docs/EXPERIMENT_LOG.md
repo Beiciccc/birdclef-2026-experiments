@@ -8,6 +8,10 @@ Current best submission:
 
 | Date | Submission | Public score | Notes |
 |---|---|---:|---|
+| 2026-05-25 | `public_minyam_eos6_student_20260525` | `0.949` | Tied the current best. |
+| 2026-05-25 | `public_pilkwang_eos6_bz_oof_pcen_20260525` | `0.949` | Tied the current best. |
+| 2026-05-25 | `public_kijiang_v352_20260525` | `0.949` | Tied the current best. |
+| 2026-05-25 | `public_ykuroka_v9_d6_20260525` | `0.949` | Tied the current best. |
 | 2026-05-24 | `public_raunak_v9_update_20260524` | `0.949` | Tied the current best. |
 | 2026-05-24 | `public_anthony_gated_rank_20260524` | `0.949` | Tied the current best. |
 | 2026-05-24 | `public_adarsh_v68_w020_20260524` | `0.949` | Tied the current best. |
@@ -47,7 +51,40 @@ Current leaderboard snapshot:
 
 | Team | Rank | Score | Total submissions |
 |---|---:|---:|---:|
-| `Kun Zhang` | `177` | `0.949` | `119` |
+| `Kun Zhang` | `190` | `0.949` | `124` |
+
+## 2026-05-25 Submission Batch
+
+Five competition submissions completed. The best confirmed public score remained `0.949`; the latest public snapshot placed the team at rank `190` with `124` total submissions.
+
+| Submission | Public score | Result |
+|---|---:|---|
+| `public_minyam_eos6_student_20260525` | `0.949` | Tied the current best; student/distillation branch did not confirm a public lift. |
+| `public_pilkwang_eos6_bz_oof_pcen_20260525` | `0.949` | Tied the current best; OOF-gated PCEN sidecar did not break the plateau. |
+| `public_kijiang_v352_20260525` | `0.949` | Tied the current best. |
+| `public_ykuroka_v9_d6_20260525` | `0.949` | Tied the current best; used as the fifth submission after a slower SED candidate stayed queued. |
+| `public_svanik_perchfusion_20260525` |  | Completed in Kaggle submissions but returned an empty publicScore field; no confirmed leaderboard lift. |
+
+Leaderboard snapshot after the 2026-05-25 submissions:
+
+| Team | Rank | Score | Total submissions |
+|---|---:|---:|---:|
+| `Kun Zhang` | `190` | `0.949` | `124` |
+
+Notes:
+
+- Public leaderboard thresholds in this snapshot: rank 1 `0.963`, rank 10 `0.958`, rank 20 `0.956`, rank 50 `0.952`, rank 100 `0.950`, rank 150 `0.949`, and rank 200 `0.949`.
+- Four scored submissions tied the `0.949` plateau. The Svanik PerchFusion run completed but Kaggle returned no publicScore value for the submission record.
+- `bc2026-iter-5-sed-ensemble-submit-v3` was prepared as a SED diversity candidate, but it remained queued too long and was replaced by the Ykuroka V9-D6 fork for the fifth submission.
+- The student, OOF-gated PCEN, and V9-D6 branches still did not produce a confirmed `0.950+` public signal. The next useful direction remains a locally trained complementary model or a stronger pseudo-label/student branch rather than more small public-code variants.
+
+Public sources reviewed or rerun in this cycle:
+
+- [Minyam EoS6 student](https://www.kaggle.com/code/minyam/birdclef-eos6-student)
+- [Pilkwang EoS6-bz OOF-gated PCEN sidecar](https://www.kaggle.com/code/pilkwang/birdclef-2026-eos6-bz-oof-gated-pcen-sidecar)
+- [Kijiang v352](https://www.kaggle.com/code/kijiang/birdclef2026-v352)
+- [Ykuroka V9-D6](https://www.kaggle.com/code/ykuroka/birdclef-2026-v9-d6)
+- [PerchFusion Engine](https://www.kaggle.com/code/svanikkolli/perchfusion-engine)
 
 ## 2026-05-24 Submission Batch
 
