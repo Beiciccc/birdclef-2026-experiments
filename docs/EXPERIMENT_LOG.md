@@ -2,12 +2,16 @@
 
 ## Summary
 
-Best confirmed public leaderboard score: `0.949`.
+Best confirmed public leaderboard score: `0.950`.
 
 Current best submission:
 
 | Date | Submission | Public score | Notes |
 |---|---|---:|---|
+| 2026-05-27 | `public_mtoshi_yaroslav_v221_tax_20260527` | `0.950` | New best in this workspace. |
+| 2026-05-27 | `public_pilkwang_eos8_birdnet_pcen_20260527` | `0.950` | Tied the new best. |
+| 2026-05-27 | `public_karnak_hier_tax_pp_20260527` | `0.950` | Tied the new best. |
+| 2026-05-27 | `public_nina_eos7_sz_latest_20260527` | `0.950` | Tied the new best. |
 | 2026-05-25 | `public_minyam_eos6_student_20260525` | `0.949` | Tied the current best. |
 | 2026-05-25 | `public_pilkwang_eos6_bz_oof_pcen_20260525` | `0.949` | Tied the current best. |
 | 2026-05-25 | `public_kijiang_v352_20260525` | `0.949` | Tied the current best. |
@@ -51,7 +55,40 @@ Current leaderboard snapshot:
 
 | Team | Rank | Score | Total submissions |
 |---|---:|---:|---:|
-| `Kun Zhang` | `190` | `0.949` | `124` |
+| `Kun Zhang` | `124` | `0.950` | `134` |
+
+## 2026-05-27 Submission Batch
+
+Five competition submissions completed. Four reached a new confirmed public best of `0.950`; the latest public snapshot placed the team at rank `124` with `134` total submissions.
+
+| Submission | Public score | Result |
+|---|---:|---|
+| `public_mtoshi_yaroslav_v221_tax_20260527` | `0.950` | New best; taxonomy/post-processing variant broke the `0.949` plateau. |
+| `public_pilkwang_eos8_birdnet_pcen_20260527` | `0.950` | Tied the new best; EoS8 with PCEN/BirdNET sidecar transferred cleanly. |
+| `public_karnak_hier_tax_pp_20260527` | `0.950` | Tied the new best; hierarchy-aware taxonomy post-processing was a useful public signal. |
+| `public_nina_eos7_sz_latest_20260527` | `0.950` | Tied the new best; latest EoS7 rerun confirmed the new score band. |
+| `public_ykuroka_v6lam05_nosidecar_20260527` | `0.949` | Valid but below the new best. |
+
+Leaderboard snapshot after the 2026-05-27 submissions:
+
+| Team | Rank | Score | Total submissions |
+|---|---:|---:|---:|
+| `Kun Zhang` | `124` | `0.950` | `134` |
+
+Notes:
+
+- Public leaderboard thresholds in this snapshot: rank 1 `0.963`, rank 10 `0.958`, rank 20 `0.956`, rank 50 `0.952`, rank 100 `0.950`, rank 150 `0.950`, rank 200 `0.950`, and rank 300 `0.949`.
+- The confirmed score moved from `0.949` to `0.950`, lifting the public rank from the high-200s to rank `124` in the `0.950` tie group.
+- Several high-risk copied candidates failed during notebook execution before competition submission, including Anthony 0.950 ensemble, Lixinyin R0952 Run2, Nina EoS8, and Ykuroka 0.950 ensemble. They did not create competition submission records in this batch.
+- Discussion signals continued to point toward selective pseudo-labeling, Perch feature distillation, and diverse EoS/SED/taxonomy ensembles; BirdNET remained useful only as a constrained side signal rather than a standalone replacement.
+
+Public sources reviewed or rerun in this cycle:
+
+- [Mtoshi Yaroslav v221 taxonomy variant](https://www.kaggle.com/code/mtoshidesu/test-birdclef-2026-yaroslav-v221-tax)
+- [Pilkwang EoS8 BirdNET PCEN sidecar](https://www.kaggle.com/code/pilkwang/birdclef-2026-eos8-birdnet-pcen-sidecar)
+- [Hierarchical taxonomy post-processing](https://www.kaggle.com/code/karnakbaevarthur/hierarchical-taxonomy-post-processing-birdclef-2)
+- [Nina EoS7 sz](https://www.kaggle.com/code/nina2025/birdclef-2026-eos-7-sz)
+- [Ykuroka v6lam05 nosidecar](https://www.kaggle.com/code/ykuroka/birdclef-2026-v6lam05-nosidecar)
 
 ## 2026-05-25 Submission Batch
 
