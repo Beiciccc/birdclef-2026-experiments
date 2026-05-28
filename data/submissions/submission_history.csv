@@ -1,4 +1,8 @@
 fileName,date,description,status,publicScore,privateScore
+submission.csv,2026-05-28 17:54:54.773000,public_meenal_improved_may28_20260528,SubmissionStatus.COMPLETE,0.950,
+submission.csv,2026-05-28 17:54:13.783000,public_gendaijin_karnak_hier_20260528,SubmissionStatus.COMPLETE,0.950,
+submission.csv,2026-05-28 17:49:09.477000,public_yaroslav_0950_replay_20260528,SubmissionStatus.COMPLETE,0.950,
+submission.csv,2026-05-28 17:49:07.090000,public_nina_eos9_20260528,SubmissionStatus.COMPLETE,0.950,
 submission.csv,2026-05-28 10:01:34.300000,public_pilkwang_eos_oof_gated_pcen_20260528,SubmissionStatus.COMPLETE,,
 submission.csv,2026-05-27 00:50:47.413000,public_ykuroka_v6lam05_nosidecar_20260527,SubmissionStatus.COMPLETE,0.949,
 submission.csv,2026-05-27 00:31:51.733000,public_nina_eos7_sz_latest_20260527,SubmissionStatus.COMPLETE,0.950,

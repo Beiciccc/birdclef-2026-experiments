@@ -8,6 +8,10 @@ Current best submission:
 
 | Date | Submission | Public score | Notes |
 |---|---|---:|---|
+| 2026-05-28 | `public_nina_eos9_20260528` | `0.950` | Tied the current best. |
+| 2026-05-28 | `public_yaroslav_0950_replay_20260528` | `0.950` | Tied the current best. |
+| 2026-05-28 | `public_gendaijin_karnak_hier_20260528` | `0.950` | Tied the current best. |
+| 2026-05-28 | `public_meenal_improved_may28_20260528` | `0.950` | Tied the current best. |
 | 2026-05-27 | `public_mtoshi_yaroslav_v221_tax_20260527` | `0.950` | New best in this workspace. |
 | 2026-05-27 | `public_pilkwang_eos8_birdnet_pcen_20260527` | `0.950` | Tied the new best. |
 | 2026-05-27 | `public_karnak_hier_tax_pp_20260527` | `0.950` | Tied the new best. |
@@ -55,32 +59,40 @@ Current leaderboard snapshot:
 
 | Team | Rank | Score | Total submissions |
 |---|---:|---:|---:|
-| `Kun Zhang` | `388` | `0.950` | `135` |
+| `Kun Zhang` | `301` | `0.950` | `139` |
 
-## 2026-05-28 Submission
+## 2026-05-28 Submissions
 
-One competition submission completed. The confirmed best public leaderboard score remained `0.950`; the latest public snapshot placed the team at rank `388` with `135` total submissions.
+Five competition submissions completed. Four later submissions returned scored `0.950` results; the confirmed best public leaderboard score remained `0.950`. The latest public snapshot placed the team at rank `301` with `139` total submissions.
 
 | Submission | Public score | Result |
 |---|---:|---|
+| `public_nina_eos9_20260528` | `0.950` | Tied the current best; EoS9/taxonomy route completed cleanly. |
+| `public_yaroslav_0950_replay_20260528` | `0.950` | Tied the current best; stable 0950 replay route. |
+| `public_gendaijin_karnak_hier_20260528` | `0.950` | Tied the current best; Karnak hierarchy/taxonomy variant completed cleanly. |
+| `public_meenal_improved_may28_20260528` | `0.950` | Tied the current best; improved EoS-style public notebook rerun. |
 | `public_pilkwang_eos_oof_gated_pcen_20260528` |  | Completed and counted in the leaderboard snapshot, but Kaggle returned an empty publicScore field for this submission record. The team score remained `0.950`. |
 
 Leaderboard snapshot after the 2026-05-28 submission:
 
 | Team | Rank | Score | Total submissions |
 |---|---:|---:|---:|
-| `Kun Zhang` | `388` | `0.950` | `135` |
+| `Kun Zhang` | `301` | `0.950` | `139` |
 
 Notes:
 
-- Public leaderboard thresholds in this snapshot: rank 1 `0.964`, rank 10 `0.958`, rank 20 `0.956`, rank 50 `0.953`, rank 100 `0.951`, rank 150 `0.950`, rank 200 `0.950`, rank 300 `0.950`, and rank 400 `0.950`.
-- The public `0.950` tie group expanded substantially, so the rank moved down even though the best score did not regress.
-- The selected candidate was the newest Pilkwang EoS9/taxonomy route with OOF-gated PCEN and BirdNET sidecars. It completed, but did not provide a confirmed public lift beyond the existing `0.950` score.
-- Kaggle rejected the first kernel push because public sharing of competition-source notebooks was disabled before the competition end. Re-running the same candidate as a private kernel resolved the packaging blocker before submission.
+- Public leaderboard thresholds in this snapshot: rank 1 `0.964`, rank 10 `0.958`, rank 20 `0.956`, rank 50 `0.953`, rank 100 `0.951`, rank 150 `0.950`, rank 200 `0.950`, rank 300 `0.950`, rank 400 `0.950`, and rank 500 `0.950`.
+- All four scored reruns tied the existing `0.950` score but did not move the team into the `0.951+` band.
+- The public `0.950` tie group remains broad, so small same-family EoS/taxonomy changes are now mostly tie-position probes rather than reliable score lifts.
+- Public notebook sharing rules required these competition-source reruns to be pushed as private kernels before submission.
 
 Public source reviewed or rerun in this cycle:
 
 - [Pilkwang EoS OOF-gated PCEN](https://www.kaggle.com/code/pilkwang/birdclef-2026-eos-oof-gated-pcen)
+- [Nina EoS9](https://www.kaggle.com/code/nina2025/birdclef-2026-eos-9)
+- [Yaroslav 0950 Replay](https://www.kaggle.com/code/yaroslavkholmirzayev/0950-replay)
+- [Gendaijin Karnak hierarchy May 28](https://www.kaggle.com/code/gendaijin/birdclef2026-day0528-karnak-hier)
+- [Meenal Sinha improved notebook](https://www.kaggle.com/code/meenalsinha/birdclef-2026-improved)
 
 ## 2026-05-27 Submission Batch
 

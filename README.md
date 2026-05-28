@@ -10,9 +10,9 @@ As of 2026-05-28:
 
 - Team: `Kun Zhang`
 - Best public score: `0.950`
-- Public rank: `388`
-- Submission count: `135`
-- Best recent submissions: `public_mtoshi_yaroslav_v221_tax_20260527`, `public_pilkwang_eos8_birdnet_pcen_20260527`, `public_karnak_hier_tax_pp_20260527`, `public_nina_eos7_sz_latest_20260527`, `public_pilkwang_eos_oof_gated_pcen_20260528`
+- Public rank: `301`
+- Submission count: `139`
+- Best recent submissions: `public_nina_eos9_20260528`, `public_yaroslav_0950_replay_20260528`, `public_gendaijin_karnak_hier_20260528`, `public_meenal_improved_may28_20260528`
 
 ## Repository Layout
 
