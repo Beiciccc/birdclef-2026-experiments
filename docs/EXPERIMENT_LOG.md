@@ -55,7 +55,32 @@ Current leaderboard snapshot:
 
 | Team | Rank | Score | Total submissions |
 |---|---:|---:|---:|
-| `Kun Zhang` | `124` | `0.950` | `134` |
+| `Kun Zhang` | `388` | `0.950` | `135` |
+
+## 2026-05-28 Submission
+
+One competition submission completed. The confirmed best public leaderboard score remained `0.950`; the latest public snapshot placed the team at rank `388` with `135` total submissions.
+
+| Submission | Public score | Result |
+|---|---:|---|
+| `public_pilkwang_eos_oof_gated_pcen_20260528` |  | Completed and counted in the leaderboard snapshot, but Kaggle returned an empty publicScore field for this submission record. The team score remained `0.950`. |
+
+Leaderboard snapshot after the 2026-05-28 submission:
+
+| Team | Rank | Score | Total submissions |
+|---|---:|---:|---:|
+| `Kun Zhang` | `388` | `0.950` | `135` |
+
+Notes:
+
+- Public leaderboard thresholds in this snapshot: rank 1 `0.964`, rank 10 `0.958`, rank 20 `0.956`, rank 50 `0.953`, rank 100 `0.951`, rank 150 `0.950`, rank 200 `0.950`, rank 300 `0.950`, and rank 400 `0.950`.
+- The public `0.950` tie group expanded substantially, so the rank moved down even though the best score did not regress.
+- The selected candidate was the newest Pilkwang EoS9/taxonomy route with OOF-gated PCEN and BirdNET sidecars. It completed, but did not provide a confirmed public lift beyond the existing `0.950` score.
+- Kaggle rejected the first kernel push because public sharing of competition-source notebooks was disabled before the competition end. Re-running the same candidate as a private kernel resolved the packaging blocker before submission.
+
+Public source reviewed or rerun in this cycle:
+
+- [Pilkwang EoS OOF-gated PCEN](https://www.kaggle.com/code/pilkwang/birdclef-2026-eos-oof-gated-pcen)
 
 ## 2026-05-27 Submission Batch
 
