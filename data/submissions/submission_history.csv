@@ -1,4 +1,9 @@
 fileName,date,description,status,publicScore,privateScore
+submission.csv,2026-05-29 00:45:51.847000,public_hanijezo_karnak_hourprior_l05_20260529,SubmissionStatus.COMPLETE,0.950,
+submission.csv,2026-05-29 00:45:48.263000,public_hassan_kitchen_l15_eb10_20260529,SubmissionStatus.COMPLETE,0.950,
+submission.csv,2026-05-29 00:38:08.640000,public_sultan_karnak_hourprior_l00_20260529,SubmissionStatus.COMPLETE,0.950,
+submission.csv,2026-05-29 00:34:09.200000,public_hassan_kitchen_l00_eb10_20260529,SubmissionStatus.COMPLETE,0.950,
+submission.csv,2026-05-29 00:34:06.153000,public_hassan_kitchen_l15_eb20_20260529,SubmissionStatus.COMPLETE,0.950,
 submission.csv,2026-05-28 17:54:54.773000,public_meenal_improved_may28_20260528,SubmissionStatus.COMPLETE,0.950,
 submission.csv,2026-05-28 17:54:13.783000,public_gendaijin_karnak_hier_20260528,SubmissionStatus.COMPLETE,0.950,
 submission.csv,2026-05-28 17:49:09.477000,public_yaroslav_0950_replay_20260528,SubmissionStatus.COMPLETE,0.950,

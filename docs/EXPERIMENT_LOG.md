@@ -8,6 +8,11 @@ Current best submission:
 
 | Date | Submission | Public score | Notes |
 |---|---|---:|---|
+| 2026-05-29 | `public_hassan_kitchen_l15_eb20_20260529` | `0.950` | Tied the current best. |
+| 2026-05-29 | `public_hassan_kitchen_l00_eb10_20260529` | `0.950` | Tied the current best. |
+| 2026-05-29 | `public_sultan_karnak_hourprior_l00_20260529` | `0.950` | Tied the current best. |
+| 2026-05-29 | `public_hassan_kitchen_l15_eb10_20260529` | `0.950` | Tied the current best. |
+| 2026-05-29 | `public_hanijezo_karnak_hourprior_l05_20260529` | `0.950` | Tied the current best. |
 | 2026-05-28 | `public_nina_eos9_20260528` | `0.950` | Tied the current best. |
 | 2026-05-28 | `public_yaroslav_0950_replay_20260528` | `0.950` | Tied the current best. |
 | 2026-05-28 | `public_gendaijin_karnak_hier_20260528` | `0.950` | Tied the current best. |
@@ -59,7 +64,40 @@ Current leaderboard snapshot:
 
 | Team | Rank | Score | Total submissions |
 |---|---:|---:|---:|
-| `Kun Zhang` | `301` | `0.950` | `139` |
+| `Kun Zhang` | `143` | `0.950` | `144` |
+
+## 2026-05-29 Submission Batch
+
+Five competition submissions completed. All five returned `0.950`; the confirmed best public leaderboard score remained `0.950`. The latest public snapshot placed the team at rank `143` with `144` total submissions.
+
+| Submission | Public score | Result |
+|---|---:|---|
+| `public_hassan_kitchen_l15_eb20_20260529` | `0.950` | Tied the current best; Kitchen L15 EB20 variant completed cleanly. |
+| `public_hassan_kitchen_l00_eb10_20260529` | `0.950` | Tied the current best; Kitchen L00 EB10 variant completed cleanly. |
+| `public_sultan_karnak_hourprior_l00_20260529` | `0.950` | Tied the current best; Karnak hour-prior L00 variant completed cleanly. |
+| `public_hassan_kitchen_l15_eb10_20260529` | `0.950` | Tied the current best; Kitchen L15 EB10 variant completed cleanly. |
+| `public_hanijezo_karnak_hourprior_l05_20260529` | `0.950` | Tied the current best; Karnak hour-prior L05 variant completed cleanly. |
+
+Leaderboard snapshot after the 2026-05-29 submissions:
+
+| Team | Rank | Score | Total submissions |
+|---|---:|---:|---:|
+| `Kun Zhang` | `143` | `0.950` | `144` |
+
+Notes:
+
+- Public leaderboard thresholds in this snapshot: rank 1 `0.964`, rank 10 `0.958`, rank 20 `0.956`, rank 50 `0.953`, rank 100 `0.951`, rank 150 `0.950`, rank 200 `0.950`, rank 300 `0.950`, rank 400 `0.950`, and rank 500 `0.950`.
+- The new Kitchen and Karnak hour-prior variants stayed on the `0.950` plateau and improved rank within the tie group, but did not enter the `0.951+` band.
+- Several replacement candidates failed during notebook execution before competition submission and did not create scored submission records.
+- The next useful direction is a genuinely new complementary signal or a trained branch that can break the `0.950` plateau.
+
+Public sources reviewed or rerun in this cycle:
+
+- [Hassan Kitchen L15 EB20](https://www.kaggle.com/code/hassanalgizani/bc2026-kitchen-l15-eb20)
+- [Hassan Kitchen L00 EB10](https://www.kaggle.com/code/hassanalgizani/bc2026-kitchen-l00-eb10)
+- [Sultan Karnak HourPrior L00](https://www.kaggle.com/code/sultanalgizani/bc2026-karnak-hourprior-l00)
+- [Hassan Kitchen L15 EB10](https://www.kaggle.com/code/hassanalgizani/bc2026-kitchen-l15-eb10)
+- [Hanijezo Karnak HourPrior L05](https://www.kaggle.com/code/hanijezo/bc2026-karnak-hourprior-l05)
 
 ## 2026-05-28 Submissions
 
