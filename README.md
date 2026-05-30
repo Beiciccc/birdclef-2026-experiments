@@ -6,13 +6,13 @@ This repository contains the public project summary, experiment notes, submissio
 
 ## Current Public Leaderboard
 
-As of 2026-05-29:
+As of 2026-05-30:
 
 - Team: `Kun Zhang`
 - Best public score: `0.950`
-- Public rank: `143`
-- Submission count: `144`
-- Best recent submissions: `public_hassan_kitchen_l15_eb20_20260529`, `public_hassan_kitchen_l00_eb10_20260529`, `public_sultan_karnak_hourprior_l00_20260529`, `public_hassan_kitchen_l15_eb10_20260529`, `public_hanijezo_karnak_hourprior_l05_20260529`
+- Public rank: `170`
+- Submission count: `149`
+- Best recent submissions: `public_thomas_smart_hybrid_default_20260530`, `public_thomas_smart_hybrid_10s_20260530`, `public_thomas_smart_hybrid_softside_20260530`
 
 ## Repository Layout
 

@@ -8,6 +8,9 @@ Current best submission:
 
 | Date | Submission | Public score | Notes |
 |---|---|---:|---|
+| 2026-05-30 | `public_thomas_smart_hybrid_default_20260530` | `0.950` | Tied the current best; default smart-hybrid variant. |
+| 2026-05-30 | `public_thomas_smart_hybrid_10s_20260530` | `0.950` | Tied the current best; 10-second sidecar variant. |
+| 2026-05-30 | `public_thomas_smart_hybrid_softside_20260530` | `0.950` | Tied the current best; softer sidecar perturbation variant. |
 | 2026-05-29 | `public_hassan_kitchen_l15_eb20_20260529` | `0.950` | Tied the current best. |
 | 2026-05-29 | `public_hassan_kitchen_l00_eb10_20260529` | `0.950` | Tied the current best. |
 | 2026-05-29 | `public_sultan_karnak_hourprior_l00_20260529` | `0.950` | Tied the current best. |
@@ -64,7 +67,41 @@ Current leaderboard snapshot:
 
 | Team | Rank | Score | Total submissions |
 |---|---:|---:|---:|
-| `Kun Zhang` | `143` | `0.950` | `144` |
+| `Kun Zhang` | `170` | `0.950` | `149` |
+
+## 2026-05-30 Submission Batch
+
+Five competition submission records completed. Four returned `0.950` and one returned `0.949`; the confirmed best public leaderboard score remained `0.950`. The latest public snapshot placed the team at rank `170` with `149` total submissions.
+
+| Submission | Public score | Result |
+|---|---:|---|
+| `public_thomas_smart_hybrid_poweropt_20260530` | `0.949` | Valid but below the current best; PowerOptimization-only variant reduced the public score. |
+| `public_thomas_smart_hybrid_default_20260530` | `0.950` | Tied the current best; default smart-hybrid variant completed cleanly. |
+| `public_thomas_smart_hybrid_10s_20260530` | `0.950` | Tied the current best; 10-second sidecar variant completed cleanly. |
+| `public_thomas_smart_hybrid_10s_20260530` | `0.950` | Duplicate scorer record for the same 10-second sidecar submission. |
+| `public_thomas_smart_hybrid_softside_20260530` | `0.950` | Tied the current best; lower sidecar perturbation caps completed cleanly. |
+
+Leaderboard snapshot after the 2026-05-30 submissions:
+
+| Team | Rank | Score | Total submissions |
+|---|---:|---:|---:|
+| `Kun Zhang` | `170` | `0.950` | `149` |
+
+Notes:
+
+- Public leaderboard thresholds in this snapshot: rank 1 `0.965`, rank 10 `0.959`, rank 20 `0.957`, rank 50 `0.954`, rank 100 `0.952`, rank 150 `0.951`, rank 200 `0.950`, rank 300 `0.950`, rank 400 `0.950`, and rank 500 `0.950`.
+- The smart-hybrid sidecar variants tied the existing `0.950` result but did not break into the `0.951+` band.
+- The PowerOptimization-only ablation scored lower at `0.949`, indicating that removing the small diversity branch was not useful.
+- The Anthony model-51-only variant failed during notebook execution before competition submission, consistent with the current TensorFlow SavedModel/XLA compatibility issue seen in related forks.
+- Pilkwang EoS OOF-gated PCEN and Xiang Perch+ProtoSSM replacement kernels completed, but were not submitted because the daily submission allowance had already been consumed.
+- The next useful direction is to avoid TensorFlow SavedModel-dependent Perch paths and focus on ONNX-backed variants, stronger public-code diversity, or a genuinely new trained branch.
+
+Public sources reviewed or rerun in this cycle:
+
+- [Thomas smart hybrid](https://www.kaggle.com/code/thomaszyxu/bc26-v2538d-smart-hybrid)
+- [Anthony ensemble 0.950](https://www.kaggle.com/code/anthonytherrien/birdclef-2026-ensemble-0-950)
+- [Pilkwang EoS OOF-gated PCEN](https://www.kaggle.com/code/pilkwang/birdclef-2026-eos-oof-gated-pcen)
+- [Xiang Perch+ProtoSSM+ResSSM](https://www.kaggle.com/code/xiangshuwei/bird2026-perch-protossm-resssm)
 
 ## 2026-05-29 Submission Batch
 
