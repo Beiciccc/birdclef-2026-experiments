@@ -6,13 +6,13 @@ This repository contains the public project summary, experiment notes, submissio
 
 ## Current Public Leaderboard
 
-As of 2026-05-30:
+As of 2026-05-31:
 
 - Team: `Kun Zhang`
 - Best public score: `0.950`
-- Public rank: `170`
-- Submission count: `149`
-- Best recent submissions: `public_thomas_smart_hybrid_default_20260530`, `public_thomas_smart_hybrid_10s_20260530`, `public_thomas_smart_hybrid_softside_20260530`
+- Public rank: `208`
+- Submission count: `154`
+- Best recent submissions: `public_pilkwang_eos_oof_gated_pcen_r3_20260531`, `public_thomas_smart_hybrid_default_20260530`, `public_thomas_smart_hybrid_10s_20260530`, `public_thomas_smart_hybrid_softside_20260530`
 
 ## Repository Layout
 

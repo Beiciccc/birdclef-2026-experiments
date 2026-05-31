@@ -8,6 +8,7 @@ Current best submission:
 
 | Date | Submission | Public score | Notes |
 |---|---|---:|---|
+| 2026-05-31 | `public_pilkwang_eos_oof_gated_pcen_r3_20260531` | `0.950` | Tied the current best; EoS OOF-gated PCEN route remained on the plateau. |
 | 2026-05-30 | `public_thomas_smart_hybrid_default_20260530` | `0.950` | Tied the current best; default smart-hybrid variant. |
 | 2026-05-30 | `public_thomas_smart_hybrid_10s_20260530` | `0.950` | Tied the current best; 10-second sidecar variant. |
 | 2026-05-30 | `public_thomas_smart_hybrid_softside_20260530` | `0.950` | Tied the current best; softer sidecar perturbation variant. |
@@ -67,7 +68,41 @@ Current leaderboard snapshot:
 
 | Team | Rank | Score | Total submissions |
 |---|---:|---:|---:|
-| `Kun Zhang` | `170` | `0.950` | `149` |
+| `Kun Zhang` | `208` | `0.950` | `154` |
+
+## 2026-05-31 Submission Batch
+
+Five competition submission records completed. One tied the current best at `0.950`, two lower-scoring public reruns returned `0.928` and `0.663`, one prior-only baseline returned `0.500`, and one completed with an empty publicScore field. The confirmed best public leaderboard score remained `0.950`. The latest public snapshot placed the team at rank `208` with `154` total submissions.
+
+| Submission | Public score | Result |
+|---|---:|---|
+| `public_pilkwang_eos_oof_gated_pcen_r3_20260531` | `0.950` | Tied the current best; EoS OOF-gated PCEN remained a stable plateau route. |
+| `public_xiang_perch_protossm_resssm_r2_20260531` | `0.928` | Valid but far below the current best; standalone Perch+ProtoSSM+ResSSM was not competitive as submitted. |
+| `public_jguevarag_effb0_direct_20260531` | `0.663` | Valid but not competitive; direct EfficientNet-B0 route lacked enough task-specific signal. |
+| `public_maher_priors_r2_20260531` | `0.500` | Valid but not competitive; statistical prior route is excluded from future priority queues. |
+| `public_jungchan_submission2_direct_20260531` |  | Completed with an empty publicScore field; no confirmed leaderboard lift. |
+
+Leaderboard snapshot after the 2026-05-31 submissions:
+
+| Team | Rank | Score | Total submissions |
+|---|---:|---:|---:|
+| `Kun Zhang` | `208` | `0.950` | `154` |
+
+Notes:
+
+- Public leaderboard thresholds in this snapshot: rank 1 `0.966`, rank 10 `0.959`, rank 20 `0.957`, rank 50 `0.954`, rank 100 `0.952`, rank 150 `0.951`, rank 200 `0.950`, rank 300 `0.950`, rank 400 `0.950`, and rank 500 `0.950`.
+- The only stable result in the batch was the Pilkwang EoS OOF-gated PCEN rerun, which tied `0.950` but did not enter the `0.951+` band.
+- The public Perch+ProtoSSM, direct EfficientNet-B0, and prior-only baselines were substantially below the plateau and should not be used for further direct submissions.
+- Two prepared replacement kernels completed but were not submitted because the daily competition submission slots had already been consumed.
+- The remaining useful direction is a new trained complementary branch: heavier teacher models for pseudo-labeling, OOF-gated student distillation into EfficientNet-B-sized inference, and constrained side signals such as PCEN or BirdNET priors.
+
+Public sources reviewed or rerun in this cycle:
+
+- [Pilkwang EoS OOF-gated PCEN](https://www.kaggle.com/code/pilkwang/birdclef-2026-eos-oof-gated-pcen)
+- [Xiang Perch+ProtoSSM+ResSSM](https://www.kaggle.com/code/xiangshuwei/bird2026-perch-protossm-resssm)
+- [Jguevarag inference submission](https://www.kaggle.com/code/jguevarag/05-kaggle-inference-submission)
+- [Jungchan submission2](https://www.kaggle.com/code/jungchanryu/birdclef-submission2)
+- [Maher Jawabreh prior notebook](https://www.kaggle.com/code/maherjawabreh/maher-jawabreh)
 
 ## 2026-05-30 Submission Batch
 

@@ -1,4 +1,9 @@
 fileName,date,description,status,publicScore,privateScore
+submission.csv,2026-05-31 05:15:54.593000,public_jguevarag_effb0_direct_20260531,SubmissionStatus.COMPLETE,0.663,
+submission.csv,2026-05-31 05:15:42.670000,public_jungchan_submission2_direct_20260531,SubmissionStatus.COMPLETE,,
+submission.csv,2026-05-31 05:15:17.287000,public_maher_priors_r2_20260531,SubmissionStatus.COMPLETE,0.500,
+submission.csv,2026-05-31 05:11:01.043000,public_xiang_perch_protossm_resssm_r2_20260531,SubmissionStatus.COMPLETE,0.928,
+submission.csv,2026-05-31 05:10:59.090000,public_pilkwang_eos_oof_gated_pcen_r3_20260531,SubmissionStatus.COMPLETE,0.950,
 submission.csv,2026-05-30 00:31:48.330000,public_thomas_smart_hybrid_softside_20260530,SubmissionStatus.COMPLETE,0.950,
 submission.csv,2026-05-30 00:29:33.923000,public_thomas_smart_hybrid_10s_20260530,SubmissionStatus.COMPLETE,0.950,
 submission.csv,2026-05-30 00:29:29.387000,public_thomas_smart_hybrid_10s_20260530,SubmissionStatus.COMPLETE,0.950,
