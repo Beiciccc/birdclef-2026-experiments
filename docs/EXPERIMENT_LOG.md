@@ -8,6 +8,9 @@ Current best submission:
 
 | Date | Submission | Public score | Notes |
 |---|---|---:|---|
+| 2026-06-01 | `public_hassan_karnak_hourprior_l15_ready_20260601` | `0.950` | Tied the current best; Karnak hour-prior L15 route remained on the plateau. |
+| 2026-06-01 | `public_pilkwang_eos_oof_gated_pcen_rerun_20260601` | `0.950` | Tied the current best; EoS OOF-gated PCEN rerun remained stable. |
+| 2026-06-01 | `public_ryuto_exp014_tax_genus_private_20260601` | `0.950` | Tied the current best; taxonomy genus smoothing did not break the plateau. |
 | 2026-05-31 | `public_pilkwang_eos_oof_gated_pcen_r3_20260531` | `0.950` | Tied the current best; EoS OOF-gated PCEN route remained on the plateau. |
 | 2026-05-30 | `public_thomas_smart_hybrid_default_20260530` | `0.950` | Tied the current best; default smart-hybrid variant. |
 | 2026-05-30 | `public_thomas_smart_hybrid_10s_20260530` | `0.950` | Tied the current best; 10-second sidecar variant. |
@@ -68,7 +71,43 @@ Current leaderboard snapshot:
 
 | Team | Rank | Score | Total submissions |
 |---|---:|---:|---:|
-| `Kun Zhang` | `208` | `0.950` | `154` |
+| `Kun Zhang` | `235` | `0.950` | `159` |
+
+## 2026-06-01 Submission Batch
+
+Five competition submissions completed. Three tied the current best at `0.950`, one returned `0.949`, and one returned `0.944`. The confirmed best public leaderboard score remained `0.950`; the latest public snapshot placed the team at rank `235` with `159` total submissions.
+
+| Submission | Public score | Result |
+|---|---:|---|
+| `public_hassan_karnak_hourprior_l15_ready_20260601` | `0.950` | Tied the current best; stable Karnak hour-prior L15 replay. |
+| `public_gendaijin_raunak_v9_latest_ready_20260601` | `0.944` | Valid but below the current best; this route is excluded from future priority queues. |
+| `public_pilkwang_eos_oof_gated_pcen_rerun_20260601` | `0.950` | Tied the current best; EoS OOF-gated PCEN rerun remained stable. |
+| `public_kijiang_v369_20260601` | `0.949` | Valid but below the current best; v369 did not improve on the earlier plateau. |
+| `public_ryuto_exp014_tax_genus_private_20260601` | `0.950` | Tied the current best; genus taxonomy smoothing stayed on the plateau. |
+
+Leaderboard snapshot after the 2026-06-01 submissions:
+
+| Team | Rank | Score | Total submissions |
+|---|---:|---:|---:|
+| `Kun Zhang` | `235` | `0.950` | `159` |
+
+Notes:
+
+- Public leaderboard thresholds in this snapshot: rank 1 `0.966`, rank 10 `0.960`, rank 20 `0.957`, rank 50 `0.954`, rank 100 `0.952`, rank 150 `0.951`, rank 200 `0.951`, rank 250 `0.950`, and rank 300 `0.950`.
+- The first `0.950` score appears at rank `217`, so a confirmed `0.951` result is needed to leave the broad `0.950` tie group.
+- Newer public notebook families with taxonomy or classwise smoothing mostly tied or underperformed. Same-family reruns are no longer a strong use of daily submissions unless they include a materially different signal.
+- Two stronger-looking public candidates were prepared as owned private notebook versions for validation but were not submitted after the daily submission records were filled by completed candidates.
+- The next useful direction remains a genuinely complementary branch: stronger teacher or pseudo-label training, distilled into a smaller inference model, then combined with the stable EoS/PCEN and taxonomy routes.
+
+Public sources reviewed or rerun in this cycle:
+
+- [Hassan Karnak HourPrior L15](https://www.kaggle.com/code/hassan1417/bc2026-karnak-hourprior-l15)
+- [Gendaijin Raunak V9 latest](https://www.kaggle.com/code/gendaijin/birdclef2026-day0529-raunak-v9-latest)
+- [Pilkwang EoS OOF-gated PCEN](https://www.kaggle.com/code/pilkwang/birdclef-2026-eos-oof-gated-pcen)
+- [Kijiang v369](https://www.kaggle.com/code/kijiang/birdclef2026-v369)
+- [Ryutoyoda exp014 tax genus010](https://www.kaggle.com/code/ryutoyoda/birdclef-2026-exp014-tax-genus010)
+- [Chaneyma gate v143/v115 tax008003](https://www.kaggle.com/code/chaneyma/bc26-gate-v143-v115-tax008003)
+- [Gendaijin v221 classwise](https://www.kaggle.com/code/gendaijin/birdclef2026-day0528-v221-classwise)
 
 ## 2026-05-31 Submission Batch
 
