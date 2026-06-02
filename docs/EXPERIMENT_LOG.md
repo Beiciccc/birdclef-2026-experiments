@@ -73,11 +73,11 @@ Current leaderboard snapshot:
 
 | Team | Rank | Score | Total submissions |
 |---|---:|---:|---:|
-| `Kun Zhang` | `261` | `0.950` | `164` |
+| `Kun Zhang` | `262` | `0.950` | `164` |
 
 ## 2026-06-02 Submission Batch
 
-Five competition submissions completed. Two tied the current best at `0.950`, two returned `0.949`, and one returned `0.899`. The confirmed best public leaderboard score remained `0.950`; the latest public snapshot placed the team at rank `261` with `164` total submissions.
+Five competition submissions completed. Two tied the current best at `0.950`, two returned `0.949`, and one returned `0.899`. The confirmed best public leaderboard score remained `0.950`; the latest public snapshot placed the team at rank `262` with `164` total submissions.
 
 | Submission | Public score | Result |
 |---|---:|---|
@@ -91,7 +91,7 @@ Leaderboard snapshot after the 2026-06-02 submissions:
 
 | Team | Rank | Score | Total submissions |
 |---|---:|---:|---:|
-| `Kun Zhang` | `261` | `0.950` | `164` |
+| `Kun Zhang` | `262` | `0.950` | `164` |
 
 Notes:
 
