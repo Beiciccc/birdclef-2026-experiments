@@ -8,6 +8,8 @@ Current best submission:
 
 | Date | Submission | Public score | Notes |
 |---|---|---:|---|
+| 2026-06-02 | `public_jungchanryu_submission2_private_20260602` | `0.950` | Tied the current best; BirdNET and OOF-gated PCEN sidecar route stayed on the plateau. |
+| 2026-06-02 | `public_yaroslav_0950_replay_exp103_20260602` | `0.950` | Tied the current best; final Model_22-axis replay did not break the plateau. |
 | 2026-06-01 | `public_hassan_karnak_hourprior_l15_ready_20260601` | `0.950` | Tied the current best; Karnak hour-prior L15 route remained on the plateau. |
 | 2026-06-01 | `public_pilkwang_eos_oof_gated_pcen_rerun_20260601` | `0.950` | Tied the current best; EoS OOF-gated PCEN rerun remained stable. |
 | 2026-06-01 | `public_ryuto_exp014_tax_genus_private_20260601` | `0.950` | Tied the current best; taxonomy genus smoothing did not break the plateau. |
@@ -71,7 +73,40 @@ Current leaderboard snapshot:
 
 | Team | Rank | Score | Total submissions |
 |---|---:|---:|---:|
-| `Kun Zhang` | `235` | `0.950` | `159` |
+| `Kun Zhang` | `261` | `0.950` | `164` |
+
+## 2026-06-02 Submission Batch
+
+Five competition submissions completed. Two tied the current best at `0.950`, two returned `0.949`, and one returned `0.899`. The confirmed best public leaderboard score remained `0.950`; the latest public snapshot placed the team at rank `261` with `164` total submissions.
+
+| Submission | Public score | Result |
+|---|---:|---|
+| `public_chaneyma_gate_v143_v115_tax008003_20260602` | `0.949` | Valid but below the current best; the gate v143/v115 tax route did not transfer a lift. |
+| `public_alrickh_exp070_public0952_20260602` | `0.899` | Failed as a competitive candidate; the Perch classwise probe route was not robust in this submit form. |
+| `public_yaroslav_0950_replay_exp103_20260602` | `0.950` | Tied the current best; Model_22-axis replay stayed on the plateau. |
+| `public_alrickh_nfnet_lprior075_20260602` | `0.949` | Valid but below the current best; NFNet/lprior diversity did not improve the ensemble. |
+| `public_jungchanryu_submission2_private_20260602` | `0.950` | Tied the current best; BirdNET and OOF-gated PCEN sidecars did not break the plateau. |
+
+Leaderboard snapshot after the 2026-06-02 submissions:
+
+| Team | Rank | Score | Total submissions |
+|---|---:|---:|---:|
+| `Kun Zhang` | `261` | `0.950` | `164` |
+
+Notes:
+
+- Public leaderboard thresholds in this snapshot: rank 1 `0.966`, rank 10 `0.960`, rank 20 `0.957`, rank 50 `0.954`, rank 100 `0.952`, rank 150 `0.951`, rank 200 `0.951`, rank 250 `0.950`, rank 300 `0.950`, rank 400 `0.950`, and rank 500 `0.950`.
+- The broad `0.950` tie group continued to expand. A confirmed `0.951` result is still needed to leave the plateau.
+- The `public0952`-labeled classwise probe route was not reliable in its submitted form and should not be repeated directly.
+- Public-code reruns and small taxonomy/sidecar variations remained saturated. The remaining useful direction is a new complementary trained signal or a stronger OOF-backed distillation path, rather than more same-family replay submissions.
+
+Public sources reviewed or rerun in this cycle:
+
+- [Yaroslav 0950 Replay](https://www.kaggle.com/code/yaroslavkholmirzayev/0950-replay)
+- [Alrick Exp070 Public0952](https://www.kaggle.com/code/alrickh/bc26-exp070-public0952-may22)
+- [Alrick NFNet lprior075](https://www.kaggle.com/code/alrickh/bc26-nfnet-lprior075-may21)
+- [Jungchan submission2](https://www.kaggle.com/code/jungchanryu/birdclef-submission2)
+- [Chaneyma gate v143/v115 tax008003](https://www.kaggle.com/code/chaneyma/bc26-gate-v143-v115-tax008003)
 
 ## 2026-06-01 Submission Batch
 

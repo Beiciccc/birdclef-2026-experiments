@@ -6,13 +6,13 @@ This repository contains the public project summary, experiment notes, submissio
 
 ## Current Public Leaderboard
 
-As of 2026-06-01:
+As of 2026-06-02:
 
 - Team: `Kun Zhang`
 - Best public score: `0.950`
-- Public rank: `235`
-- Submission count: `159`
-- Best recent submissions: `public_hassan_karnak_hourprior_l15_ready_20260601`, `public_pilkwang_eos_oof_gated_pcen_rerun_20260601`, `public_ryuto_exp014_tax_genus_private_20260601`
+- Public rank: `261`
+- Submission count: `164`
+- Best recent submissions: `public_yaroslav_0950_replay_exp103_20260602`, `public_jungchanryu_submission2_private_20260602`
 
 ## Repository Layout
 

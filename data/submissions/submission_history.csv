@@ -1,4 +1,9 @@
 ref,fileName,date,description,status,publicScore,privateScore
+53272309,submission.csv,2026-06-02 01:24:19.190000,public_jungchanryu_submission2_private_20260602,SubmissionStatus.COMPLETE,0.950,
+53271873,submission.csv,2026-06-02 01:08:21.717000,public_alrickh_nfnet_lprior075_20260602,SubmissionStatus.COMPLETE,0.949,
+53271871,submission.csv,2026-06-02 01:08:19.537000,public_yaroslav_0950_replay_exp103_20260602,SubmissionStatus.COMPLETE,0.950,
+53271693,submission.csv,2026-06-02 01:01:02.533000,public_alrickh_exp070_public0952_20260602,SubmissionStatus.COMPLETE,0.899,
+53271577,submission.csv,2026-06-02 00:56:24.113000,public_chaneyma_gate_v143_v115_tax008003_20260602,SubmissionStatus.COMPLETE,0.949,
 53236206,submission.csv,2026-06-01 01:44:19.070000,public_ryuto_exp014_tax_genus_private_20260601,SubmissionStatus.COMPLETE,0.950,
 53236186,submission.csv,2026-06-01 01:43:27.407000,public_kijiang_v369_20260601,SubmissionStatus.COMPLETE,0.949,
 53236147,submission.csv,2026-06-01 01:41:44.513000,public_pilkwang_eos_oof_gated_pcen_rerun_20260601,SubmissionStatus.COMPLETE,0.950,
