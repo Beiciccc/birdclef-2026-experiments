@@ -6,13 +6,13 @@ This repository contains the public project summary, experiment notes, submissio
 
 ## Current Public Leaderboard
 
-As of 2026-06-02:
+As of 2026-06-03:
 
 - Team: `Kun Zhang`
 - Best public score: `0.950`
-- Public rank: `262`
-- Submission count: `164`
-- Best recent submissions: `public_yaroslav_0950_replay_exp103_20260602`, `public_jungchanryu_submission2_private_20260602`
+- Public rank: `310`
+- Submission count: `169`
+- Best recent submissions: `public_ldausl_birdclef_stable_20260603`, `public_jungchanryu_submission2_private_20260602`
 
 ## Repository Layout
 

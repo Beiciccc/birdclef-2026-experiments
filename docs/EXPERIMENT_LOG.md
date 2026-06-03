@@ -8,6 +8,7 @@ Current best submission:
 
 | Date | Submission | Public score | Notes |
 |---|---|---:|---|
+| 2026-06-03 | `public_ldausl_birdclef_stable_20260603` | `0.950` | Tied the current best; stable public EoS-style blend remained on the plateau. |
 | 2026-06-02 | `public_jungchanryu_submission2_private_20260602` | `0.950` | Tied the current best; BirdNET and OOF-gated PCEN sidecar route stayed on the plateau. |
 | 2026-06-02 | `public_yaroslav_0950_replay_exp103_20260602` | `0.950` | Tied the current best; final Model_22-axis replay did not break the plateau. |
 | 2026-06-01 | `public_hassan_karnak_hourprior_l15_ready_20260601` | `0.950` | Tied the current best; Karnak hour-prior L15 route remained on the plateau. |
@@ -73,7 +74,50 @@ Current leaderboard snapshot:
 
 | Team | Rank | Score | Total submissions |
 |---|---:|---:|---:|
-| `Kun Zhang` | `262` | `0.950` | `164` |
+| `Kun Zhang` | `310` | `0.950` | `169` |
+
+## 2026-06-03 Submission Batch
+
+Five competition submission records were created. Three returned public scores: one tied the current best at `0.950` and two returned `0.900`. Two completed with an empty publicScore field and are treated as no-score records. Two additional candidate kernels failed before competition submission. The confirmed best public leaderboard score remained `0.950`; the latest public snapshot placed the team at rank `310` with `169` total submissions.
+
+| Submission | Public score | Result |
+|---|---:|---|
+| `public_public0952_probe_v136_retry_20260603` | `0.900` | Valid but not competitive; the historical public0952 probe route did not reproduce as a lift. |
+| `public_cheny_exp142_p952_event_high_20260603` | `0.900` | Valid but not competitive; the exp142/p952 event-high route showed the same degradation. |
+| `public_meenal_improved_stable_20260603` |  | Completed with an empty publicScore field; no confirmed leaderboard lift. |
+| `public_ldausl_birdclef_stable_20260603` | `0.950` | Tied the current best; stable public EoS-style blend remained on the plateau. |
+| `public_jungchan_submission2_jun03_backup_20260603` |  | Completed with an empty publicScore field; no confirmed leaderboard lift. |
+
+Kernel-only candidates that did not create competition submissions:
+
+| Candidate | Result |
+|---|---|
+| `lihu_birdclefmyeos_jun03` | Kernel execution error before competition submission. |
+| `mtoshi_yaroslav_v221_tax_jun03_backup` | Kernel execution error before competition submission. |
+
+Leaderboard snapshot after the 2026-06-03 submissions:
+
+| Team | Rank | Score | Total submissions |
+|---|---:|---:|---:|
+| `Kun Zhang` | `310` | `0.950` | `169` |
+
+Notes:
+
+- Public leaderboard thresholds in this snapshot: rank 1 `0.967`, rank 10 `0.960`, rank 20 `0.958`, rank 50 `0.955`, rank 100 `0.953`, rank 150 `0.952`, rank 200 `0.951`, rank 250 `0.951`, rank 300 `0.950`, rank 400 `0.950`, and rank 500 `0.950`.
+- The public top moved upward on the final day while the team stayed on the `0.950` plateau. A confirmed `0.951+` result is still required to leave the large tie group.
+- The `public0952` and exp142/p952-labeled routes are no longer reliable direct-submit candidates; both returned `0.900`.
+- Repeated public-code clones can complete with an empty publicScore field. These should be avoided unless the generated predictions are materially different.
+- Final-day Kaggle load produced long pending times and multiple kernel failures. Shorter, CPU-proven notebooks are safer than heavy model additions at this stage.
+
+Public sources reviewed or rerun in this cycle:
+
+- [Meenal Improved](https://www.kaggle.com/code/meenalsinha/birdclef-2026-improved)
+- [LDAUSL BirdCLEF+ 2026](https://www.kaggle.com/code/ldausl/birdclef-2026)
+- [Jungchan submission2](https://www.kaggle.com/code/jungchanryu/birdclef-submission2)
+- [Mtoshi Yaroslav v221 tax](https://www.kaggle.com/code/mtoshidesu/test-birdclef-2026-yaroslav-v221-tax)
+- [Lihu BirdCLEFMYEOS](https://www.kaggle.com/code/lihu6666/birdclefmyeos)
+- [Timeout discussion](https://www.kaggle.com/competitions/birdclef-2026/discussion/703576)
+- [ConvNeXt and EfficientNet discussion](https://www.kaggle.com/competitions/birdclef-2026/discussion/703295)
 
 ## 2026-06-02 Submission Batch
 
