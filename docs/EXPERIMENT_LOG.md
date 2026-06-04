@@ -2,7 +2,7 @@
 
 ## Summary
 
-Best confirmed public leaderboard score: `0.950`.
+Best confirmed public leaderboard score: `0.950`. Final private leaderboard score: `0.941` at rank `837`.
 
 Current best submission:
 
@@ -70,11 +70,28 @@ Current best submission:
 | 2026-05-16 | `public_nina_eos4_20260516` | `0.948` | Tied best confirmed public score in this workspace. |
 | 2026-05-16 | `public_youssef_lb_0948_20260516` | `0.948` | Tied best confirmed public score in this workspace. |
 
-Current leaderboard snapshot:
+Final leaderboard snapshot:
 
 | Team | Rank | Score | Total submissions |
 |---|---:|---:|---:|
-| `Kun Zhang` | `310` | `0.950` | `169` |
+| `Kun Zhang` | `837` | `0.941` | `169` |
+
+## Final Competition Result
+
+The competition ended on 2026-06-03. The official final private leaderboard placed the team at rank `837` with score `0.941`. The final public leaderboard snapshot still showed score `0.950` at rank `325`, confirming a substantial public-to-private shakeup within the broad `0.950` public-score plateau.
+
+| Result view | Rank | Score | Notes |
+|---|---:|---:|---|
+| Final private leaderboard | `837` | `0.941` | Official final ranking view. |
+| Final public leaderboard snapshot | `325` | `0.950` | Downloaded public snapshot after competition close. |
+| Best displayed privateScore in submission history |  | `0.942` | `public_mtoshi_yaroslav_v221_tax_20260527` had public `0.950` and private `0.942` in the submissions table. |
+
+Closing notes:
+
+- The public `0.950` plateau did not transfer strongly to the private split; the final official score was `0.941`.
+- Several same-family public notebook reruns tied public `0.950` but clustered around private `0.940` to `0.942`.
+- Direct reruns of historical public0952/exp142 candidates were not robust and returned near `0.900` public and private scores.
+- The best path identified late in the competition remains a genuinely different trained signal or teacher-generated pseudo labels distilled into a small CPU-safe student, rather than more same-family public notebook replay.
 
 ## 2026-06-03 Submission Batch
 
